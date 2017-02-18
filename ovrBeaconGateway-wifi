@@ -1,0 +1,36 @@
+Reference, Value, Footprint, Datasheet, Manufacturer, Man. Part Num., Supplier, Supplier Part Num., Comp. Value
+J2,CONN_RJ45_RA,ovrEngineered:RJ45_NOMAG_RA,http://productfinder.pulseeng.com/products/datasheets/E6588-52L184-L.pdf,Pulse Electronics,E6588-52L184-L,Digi-Key,553-2265-ND,
+U2,TOREX_XC6210,ovrEngineered:SOT-25-5,https://www.torexsemi.com/file/xc6210/XC6210.pdf,Torex Semiconductor,XC6210B332MR-G,Digi-Key,893-1075-1-ND,
+D3,CREE_CLV1A_FKB,ovrEngineered:CREE_CLV1A_FKB,http://media.digikey.com/pdf/Data%20Sheets/CREE%20Power/CLV1A-FKB_Rev5.pdf,Cree Inc.,CLV1A-FKB-CK1N1G1BB7R4S3,Digi-Key,CLV1A-FKB-CK1N1G1BB7R4S3CT-ND,RGB
+U1,SILICONLABS_SI7050,ovrEngineered:SILICONLABS_SI7050,http://www.silabs.com/Support%20Documents/TechnicalDocs/Si7050-1-3-4-5-A20.pdf,Silicon Labs,SI7050-A20-IM,Digi-Key,336-3118-5-ND,
+U5,INTERSIL_ISL32602EFBZ,ovrEngineered:SOIC-14,http://www.intersil.com/content/dam/Intersil/documents/fn79/fn7967.pdf,Intersil,ISL32602EFBZ,Digi-Key,ISL32602EFBZ-ND,
+U3,FTDI_RT232RL,ovrEngineered:FT232RL,http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf,FTDI,FT232RL,Digi-Key,768-1007-1-ND,
+R8,R_12K_1%_0603,ovrEngineered:R_0603,http://www.vishay.com/docs/20035/dcrcwe3.pdf,Vishay_Dale,CRCW060312K0FKEA,Digi-Key,541-12.0KHCT-ND,12K
+R9,R_12K_1%_0603,ovrEngineered:R_0603,http://www.vishay.com/docs/20035/dcrcwe3.pdf,Vishay_Dale,CRCW060312K0FKEA,Digi-Key,541-12.0KHCT-ND,12K
+C1,C_10uF_10v_0805,ovrEngineered:C_0805,http://psearch.murata.com/capacitor/product/GRM21BR71A106KE51%23.pdf,Murata,GRM21BR71A106KE51L,Digi-Key,490-3905-1-ND,10uF
+C2,C_10uF_10v_0805,ovrEngineered:C_0805,http://psearch.murata.com/capacitor/product/GRM21BR71A106KE51%23.pdf,Murata,GRM21BR71A106KE51L,Digi-Key,490-3905-1-ND,10uF
+D1,LED_GREEN_0603,ovrEngineered:D_0603,http://optoelectronics.liteon.com/upload/download/DS22-2007-0094/S_110_LTST-C193KGKT-5A.pdf,Lite-On Inc,LTST-C193KGKT-5A,Digi-Key,160-1828-1-ND,Green
+D2,LED_RED_0603,ovrEngineered:D_0603,http://optoelectronics.liteon.com/upload/download/DS22-2007-0094/S_110_LTST-C193KGKT-5A.pdf,Lite-On Inc,LTST-C193KRKT-5A,Digi-Key,160-1830-1-ND,Red
+R3,R_402_1%_0603,ovrEngineered:R_0603,http://www.vishay.com/docs/20035/dcrcwe3.pdf,Vishay_Dale,CRCW0603402RFKEA,Digi-Key,541-402HCT-ND,402
+R4,R_402_1%_0603,ovrEngineered:R_0603,http://www.vishay.com/docs/20035/dcrcwe3.pdf,Vishay_Dale,CRCW0603402RFKEA,Digi-Key,541-402HCT-ND,402
+R5,R_402_1%_0603,ovrEngineered:R_0603,http://www.vishay.com/docs/20035/dcrcwe3.pdf,Vishay_Dale,CRCW0603402RFKEA,Digi-Key,541-402HCT-ND,402
+R2,R_402_1%_0603,ovrEngineered:R_0603,http://www.vishay.com/docs/20035/dcrcwe3.pdf,Vishay_Dale,CRCW0603402RFKEA,Digi-Key,541-402HCT-ND,402
+R1,R_402_1%_0603,ovrEngineered:R_0603,http://www.vishay.com/docs/20035/dcrcwe3.pdf,Vishay_Dale,CRCW0603402RFKEA,Digi-Key,541-402HCT-ND,402
+R10,R_12K_1%_0603,ovrEngineered:R_0603,http://www.vishay.com/docs/20035/dcrcwe3.pdf,Vishay_Dale,CRCW060312K0FKEA,Digi-Key,541-12.0KHCT-ND,12K
+R11,R_5.1K_1%_0603,ovrEngineered:R_0603,http://www.vishay.com/docs/20035/dcrcwe3.pdf,Vishay_Dale,CRCW06035K10FKEA,Digi-Key,541-5.10KHCT-ND,5.1K
+R13,R_10K_1%_0603,ovrEngineered:R_0603,http://www.vishay.com/docs/20035/dcrcwe3.pdf,Vishay_Dale,CRCW060310K0FKEA,Digi-Key,541-10.0KHCT-ND,10K
+R12,R_10K_1%_0603,ovrEngineered:R_0603,http://www.vishay.com/docs/20035/dcrcwe3.pdf,Vishay_Dale,CRCW060310K0FKEA,Digi-Key,541-10.0KHCT-ND,10K
+R7,R_10K_1%_0603,ovrEngineered:R_0603,http://www.vishay.com/docs/20035/dcrcwe3.pdf,Vishay_Dale,CRCW060310K0FKEA,Digi-Key,541-10.0KHCT-ND,10K
+R6,R_10K_1%_0603,ovrEngineered:R_0603,http://www.vishay.com/docs/20035/dcrcwe3.pdf,Vishay_Dale,CRCW060310K0FKEA,Digi-Key,541-10.0KHCT-ND,10K
+Q3,FET_NP_5A/3A_60V,ovrEngineered:SO-8,http://diodes.com/datasheets/DMC6040SSD.pdf,International Rectifier,DMC6040SSD-13,Digi-Key,DMC6040SSD-13DICT-ND,
+R15,R_10K_1%_0603,ovrEngineered:R_0603,http://www.vishay.com/docs/20035/dcrcwe3.pdf,Vishay_Dale,CRCW060310K0FKEA,Digi-Key,541-10.0KHCT-ND,10K
+R14,R_10K_1%_0603,ovrEngineered:R_0603,http://www.vishay.com/docs/20035/dcrcwe3.pdf,Vishay_Dale,CRCW060310K0FKEA,Digi-Key,541-10.0KHCT-ND,10K
+R17,R_0_0603,ovrEngineered:R_0603,http://www.vishay.com/docs/20035/dcrcwe3.pdf,Vishay_Dale,CRCW06030000Z0EA,Digi-Key,541-0.0GCT-ND,0
+R16,R_0_0603,ovrEngineered:R_0603,http://www.vishay.com/docs/20035/dcrcwe3.pdf,Vishay_Dale,CRCW06030000Z0EA,Digi-Key,541-0.0GCT-ND,0
+Q1,BJT_NPN_1.5A_25V,ovrEngineered:SOT-23-3,http://www.mccsemi.com/up_pdf/MMSS8050(SOT-23).pdf,Micro Commercial Co,MMSS8050-H-TP,Digi-Key,MMSS8050-H-TPMSCT-ND,
+Q2,BJT_NPN_1.5A_25V,ovrEngineered:SOT-23-3,http://www.mccsemi.com/up_pdf/MMSS8050(SOT-23).pdf,Micro Commercial Co,MMSS8050-H-TP,Digi-Key,MMSS8050-H-TPMSCT-ND,
+U4,ESP32-WROOM,ovrEngineered:ESP32-WROOM,https://espressif.com/sites/default/files/documentation/esp_wroom_32_datasheet_en.pdf,EspressIf,esp-wroom-32,Grid Connect,GC-ESP-WROOM-32,
+D4,LED_BLUE_0603,ovrEngineered:D_0603,http://optoelectronics.liteon.com/upload/download/DS22-2007-0094/S_110_LTST-C193KGKT-5A.pdf,Lite-On Inc,LTST-C193TBKT-5A,Digi-Key,160-1827-1-ND,Blue
+R18,R_402_1%_0603,ovrEngineered:R_0603,http://www.vishay.com/docs/20035/dcrcwe3.pdf,Vishay_Dale,CRCW0603402RFKEA,Digi-Key,541-402HCT-ND,402
+C3,C_10uF_10v_0805,ovrEngineered:C_0805,http://psearch.murata.com/capacitor/product/GRM21BR71A106KE51%23.pdf,Murata,GRM21BR71A106KE51L,Digi-Key,490-3905-1-ND,10uF
+J1,USB_MICROB_RA_LONG,ovrEngineered:UJ2-MIBH-4-SMT,http://www.cui.com/product/resource/digikeypdf/uj2-mibh-4-smt.pdf,CUI, Inc,UJ2-MIBH-4-SMT,Digi-Key,102-4006-1-ND,
