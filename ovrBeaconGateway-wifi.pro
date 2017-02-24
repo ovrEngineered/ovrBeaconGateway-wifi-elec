@@ -1,4 +1,4 @@
-update=Friday, February 17, 2017 'PMt' 03:11:41 PM
+update=Thursday, February 23, 2017 'PMt' 05:46:58 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -32,3 +32,13 @@ LibDir=externals/ovrEngineered-libs
 LibName1=externals/ovrEngineered-libs/ovrEngineered
 LibName2=power
 LibName3=conn
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

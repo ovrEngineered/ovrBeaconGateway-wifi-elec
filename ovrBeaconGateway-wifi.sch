@@ -534,13 +534,13 @@ Wire Wire Line
 	1650 6100 1700 6100
 Wire Wire Line
 	1650 6250 1700 6250
-Text Label 6300 4400 2    30   ~ 0
+Text Label 5650 3750 2    30   ~ 0
 ESP32_EN
-Text Label 4500 4350 0    30   ~ 0
+Text Label 3850 3700 0    30   ~ 0
 ESP32_IO0
-Text Label 6300 4500 2    30   ~ 0
+Text Label 5650 3850 2    30   ~ 0
 ESP32-TX_DBG-RX
-Text Label 6300 4550 2    30   ~ 0
+Text Label 5650 3900 2    30   ~ 0
 ESP32-RX_DBG-TX
 $Comp
 L R_12K_1%_0603 R10
@@ -607,27 +607,27 @@ Connection ~ 5000 2050
 $Comp
 L +3V3 #PWR012
 U 1 1 58A78CCF
-P 5900 4300
-F 0 "#PWR012" H 5900 4150 50  0001 C CNN
-F 1 "+3V3" H 5900 4440 50  0000 C CNN
-F 2 "" H 5900 4300 50  0000 C CNN
-F 3 "" H 5900 4300 50  0000 C CNN
-	1    5900 4300
+P 5250 3650
+F 0 "#PWR012" H 5250 3500 50  0001 C CNN
+F 1 "+3V3" H 5250 3790 50  0000 C CNN
+F 2 "" H 5250 3650 50  0000 C CNN
+F 3 "" H 5250 3650 50  0000 C CNN
+	1    5250 3650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5850 4350 5900 4350
+	5200 3700 5250 3700
 Wire Wire Line
-	5900 4350 5900 4300
+	5250 3700 5250 3650
 Wire Wire Line
-	5850 4400 6300 4400
+	5200 3750 5650 3750
 Wire Wire Line
-	5850 4500 6300 4500
+	5200 3850 5650 3850
 Wire Wire Line
-	5850 4550 6300 4550
-Text Label 4500 4750 0    30   ~ 0
+	5200 3900 5650 3900
+Text Label 3850 4100 0    30   ~ 0
 ESP32-TX_BTLE-RX
-Text Label 4500 4800 0    30   ~ 0
+Text Label 3850 4150 0    30   ~ 0
 ESP32-RX_BTLE-TX
 $Comp
 L +3V3 #PWR013
@@ -677,9 +677,9 @@ Wire Wire Line
 Wire Wire Line
 	9000 2000 8950 2000
 Connection ~ 8950 2000
-Text Label 4500 5000 0    30   ~ 0
+Text Label 3850 4350 0    30   ~ 0
 ESP32-CTS_BTLE-RTS
-Text Label 4500 4950 0    30   ~ 0
+Text Label 3850 4300 0    30   ~ 0
 ESP32-RTS_BTLE-CTS
 Wire Wire Line
 	7600 1800 7550 1800
@@ -772,19 +772,19 @@ Connection ~ 7100 1500
 Text Label 6600 1650 0    30   ~ 0
 422_DE
 Connection ~ 7100 1650
-Text Label 4500 4600 0    30   ~ 0
+Text Label 3850 3950 0    30   ~ 0
 422_DE
-Text Label 4500 4550 0    30   ~ 0
+Text Label 3850 3900 0    30   ~ 0
 ~422_RE
 $Comp
 L GND #PWR018
 U 1 1 58A7D305
-P 5000 5700
-F 0 "#PWR018" H 5000 5450 50  0001 C CNN
-F 1 "GND" H 5000 5550 50  0000 C CNN
-F 2 "" H 5000 5700 50  0000 C CNN
-F 3 "" H 5000 5700 50  0000 C CNN
-	1    5000 5700
+P 4350 5050
+F 0 "#PWR018" H 4350 4800 50  0001 C CNN
+F 1 "GND" H 4350 4900 50  0000 C CNN
+F 2 "" H 4350 5050 50  0000 C CNN
+F 3 "" H 4350 5050 50  0000 C CNN
+	1    4350 5050
 	1    0    0    -1  
 $EndComp
 Text Label 1300 7250 0    30   ~ 0
@@ -821,41 +821,41 @@ Wire Wire Line
 	2050 7250 2100 7250
 Wire Wire Line
 	2100 7250 2100 7200
-Text Label 4500 5400 0    30   ~ 0
+Text Label 3850 4750 0    30   ~ 0
 SCL
-Text Label 4500 5350 0    30   ~ 0
+Text Label 3850 4700 0    30   ~ 0
 SDA
 Wire Wire Line
 	1450 7250 1300 7250
 Wire Wire Line
 	1300 7300 1450 7300
 Wire Wire Line
-	4500 4350 5050 4350
+	3850 3700 4400 3700
 Wire Wire Line
-	4500 4750 5050 4750
+	3850 4100 4400 4100
 Wire Wire Line
-	4500 4800 5050 4800
+	3850 4150 4400 4150
 Wire Wire Line
-	4500 4950 5050 4950
+	3850 4300 4400 4300
 Wire Wire Line
-	4500 5000 5050 5000
+	3850 4350 4400 4350
 Wire Wire Line
-	5050 5500 5000 5500
+	4400 4850 4350 4850
 Wire Wire Line
-	5000 5500 5000 5700
+	4350 4850 4350 5050
 Wire Wire Line
-	5050 5550 5000 5550
-Connection ~ 5000 5550
+	4400 4900 4350 4900
+Connection ~ 4350 4900
 Wire Wire Line
-	5050 5600 5000 5600
-Connection ~ 5000 5600
+	4400 4950 4350 4950
+Connection ~ 4350 4950
 Wire Wire Line
-	5050 5650 5000 5650
-Connection ~ 5000 5650
+	4400 5000 4350 5000
+Connection ~ 4350 5000
 Wire Wire Line
-	4500 5100 5050 5100
+	3850 4450 4400 4450
 Wire Wire Line
-	4500 4600 5050 4600
+	3850 3950 4400 3950
 $Comp
 L GND #PWR021
 U 1 1 58A7E742
@@ -898,22 +898,22 @@ Wire Wire Line
 	2000 5950 2400 5950
 Wire Wire Line
 	2000 5250 2400 5250
-Text Label 4500 4650 0    30   ~ 0
+Text Label 3850 4000 0    30   ~ 0
 LED_ERROR
-Text Label 4500 5250 0    30   ~ 0
+Text Label 3850 4600 0    30   ~ 0
 LED_RGB_R
-Text Label 4500 5300 0    30   ~ 0
+Text Label 3850 4650 0    30   ~ 0
 LED_RGB_G
-Text Label 4500 5100 0    30   ~ 0
+Text Label 3850 4450 0    30   ~ 0
 LED_RGB_B
 Wire Wire Line
-	4500 5250 5050 5250
+	3850 4600 4400 4600
 Wire Wire Line
-	5050 5300 4500 5300
+	4400 4650 3850 4650
 Wire Wire Line
-	4500 5350 5050 5350
+	3850 4700 4400 4700
 Wire Wire Line
-	5050 5400 4500 5400
+	4400 4750 3850 4750
 $Comp
 L R_10K_1%_0603 R7
 U 1 1 58A802E4
@@ -977,136 +977,136 @@ Wire Wire Line
 $Comp
 L FET_NP_5A/3A_60V Q3
 U 1 1 58A80B60
-P 8850 5150
-F 0 "Q3" H 8800 5950 60  0000 C CNN
-F 1 "FET_NP_5A/3A_60V" H 9500 5500 60  0000 C CNN
-F 2 "ovrEngineered:SO-8" H 8850 5150 60  0001 C CNN
-F 3 "http://diodes.com/datasheets/DMC6040SSD.pdf" H 8950 5100 60  0001 C CNN
-F 4 "International Rectifier" H 8350 5200 60  0001 C CNN "Manufacturer"
-F 5 "DMC6040SSD-13" H 9300 5200 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 8650 5000 60  0001 C CNN "Supplier"
-F 7 "DMC6040SSD-13DICT-ND" H 9300 5000 60  0001 C CNN "Supplier Part Num."
-	1    8850 5150
+P 9350 4600
+F 0 "Q3" H 9300 5400 60  0000 C CNN
+F 1 "FET_NP_5A/3A_60V" H 10000 4950 60  0000 C CNN
+F 2 "ovrEngineered:SO-8" H 9350 4600 60  0001 C CNN
+F 3 "http://diodes.com/datasheets/DMC6040SSD.pdf" H 9450 4550 60  0001 C CNN
+F 4 "International Rectifier" H 8850 4650 60  0001 C CNN "Manufacturer"
+F 5 "DMC6040SSD-13" H 9800 4650 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 9150 4450 60  0001 C CNN "Supplier"
+F 7 "DMC6040SSD-13DICT-ND" H 9800 4450 60  0001 C CNN "Supplier Part Num."
+	1    9350 4600
 	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR024
 U 1 1 58A80DC5
-P 9000 4400
-F 0 "#PWR024" H 9000 4250 50  0001 C CNN
-F 1 "+5V" H 9000 4540 50  0000 C CNN
-F 2 "" H 9000 4400 50  0000 C CNN
-F 3 "" H 9000 4400 50  0000 C CNN
-	1    9000 4400
+P 9500 3850
+F 0 "#PWR024" H 9500 3700 50  0001 C CNN
+F 1 "+5V" H 9500 3990 50  0000 C CNN
+F 2 "" H 9500 3850 50  0000 C CNN
+F 3 "" H 9500 3850 50  0000 C CNN
+	1    9500 3850
 	1    0    0    -1  
 $EndComp
-Text Label 9350 4600 2    30   ~ 0
+Text Label 9850 4050 2    30   ~ 0
 +5V_SWITCHED
 Wire Wire Line
-	8950 4550 9000 4550
+	9450 4000 9500 4000
 Wire Wire Line
-	9000 4550 9000 4600
+	9500 4000 9500 4050
 Wire Wire Line
-	8950 4600 9350 4600
-Connection ~ 9000 4600
+	9450 4050 9850 4050
+Connection ~ 9500 4050
 $Comp
 L GND #PWR025
 U 1 1 58A817D5
-P 9000 4900
-F 0 "#PWR025" H 9000 4650 50  0001 C CNN
-F 1 "GND" H 9000 4750 50  0000 C CNN
-F 2 "" H 9000 4900 50  0000 C CNN
-F 3 "" H 9000 4900 50  0000 C CNN
-	1    9000 4900
+P 9500 4350
+F 0 "#PWR025" H 9500 4100 50  0001 C CNN
+F 1 "GND" H 9500 4200 50  0000 C CNN
+F 2 "" H 9500 4350 50  0000 C CNN
+F 3 "" H 9500 4350 50  0000 C CNN
+	1    9500 4350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8950 4850 9000 4850
+	9450 4300 9500 4300
 Wire Wire Line
-	9000 4850 9000 4900
+	9500 4300 9500 4350
 $Comp
 L R_10K_1%_0603 R15
 U 1 1 58A8219F
-P 8500 5000
-F 0 "R15" V 8450 5200 60  0000 C CNN
-F 1 "R_10K_1%_0603" H 8500 4850 60  0001 C CNN
-F 2 "ovrEngineered:R_0603" H 8500 5000 60  0001 C CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 8700 4650 60  0001 C CNN
-F 4 "Vishay_Dale" H 8200 4750 60  0001 C CNN "Manufacturer"
-F 5 "CRCW060310K0FKEA" H 8950 4750 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 8250 4550 60  0001 C CNN "Supplier"
-F 7 "541-10.0KHCT-ND" H 8950 4550 60  0001 C CNN "Supplier Part Num."
-F 8 "10K" V 8550 5200 60  0000 C CNN "Comp. Value"
-	1    8500 5000
+P 9000 4450
+F 0 "R15" V 8950 4650 60  0000 C CNN
+F 1 "R_10K_1%_0603" H 9000 4300 60  0001 C CNN
+F 2 "ovrEngineered:R_0603" H 9000 4450 60  0001 C CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 9200 4100 60  0001 C CNN
+F 4 "Vishay_Dale" H 8700 4200 60  0001 C CNN "Manufacturer"
+F 5 "CRCW060310K0FKEA" H 9450 4200 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 8750 4000 60  0001 C CNN "Supplier"
+F 7 "541-10.0KHCT-ND" H 9450 4000 60  0001 C CNN "Supplier Part Num."
+F 8 "10K" V 9050 4650 60  0000 C CNN "Comp. Value"
+	1    9000 4450
 	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR026
 U 1 1 58A8247A
-P 8550 5200
-F 0 "#PWR026" H 8550 4950 50  0001 C CNN
-F 1 "GND" H 8550 5050 50  0000 C CNN
-F 2 "" H 8550 5200 50  0000 C CNN
-F 3 "" H 8550 5200 50  0000 C CNN
-	1    8550 5200
+P 9050 4650
+F 0 "#PWR026" H 9050 4400 50  0001 C CNN
+F 1 "GND" H 9050 4500 50  0000 C CNN
+F 2 "" H 9050 4650 50  0000 C CNN
+F 3 "" H 9050 4650 50  0000 C CNN
+	1    9050 4650
 	1    0    0    -1  
 $EndComp
-Text Label 8050 4800 0    30   ~ 0
+Text Label 8550 4250 0    30   ~ 0
 BTLE_POWER_ENABLE
 Wire Wire Line
-	8050 4800 8600 4800
+	8550 4250 9100 4250
 Wire Wire Line
-	8550 4850 8550 4800
-Connection ~ 8550 4800
+	9050 4300 9050 4250
+Connection ~ 9050 4250
 Wire Wire Line
-	8550 5150 8550 5200
+	9050 4600 9050 4650
 $Comp
 L R_10K_1%_0603 R14
 U 1 1 58A82B69
-P 8350 4300
-F 0 "R14" V 8300 4500 60  0000 C CNN
-F 1 "R_10K_1%_0603" H 8350 4150 60  0001 C CNN
-F 2 "ovrEngineered:R_0603" H 8350 4300 60  0001 C CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 8550 3950 60  0001 C CNN
-F 4 "Vishay_Dale" H 8050 4050 60  0001 C CNN "Manufacturer"
-F 5 "CRCW060310K0FKEA" H 8800 4050 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 8100 3850 60  0001 C CNN "Supplier"
-F 7 "541-10.0KHCT-ND" H 8800 3850 60  0001 C CNN "Supplier Part Num."
-F 8 "10K" V 8400 4500 60  0000 C CNN "Comp. Value"
-	1    8350 4300
+P 8850 3750
+F 0 "R14" V 8800 3950 60  0000 C CNN
+F 1 "R_10K_1%_0603" H 8850 3600 60  0001 C CNN
+F 2 "ovrEngineered:R_0603" H 8850 3750 60  0001 C CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 9050 3400 60  0001 C CNN
+F 4 "Vishay_Dale" H 8550 3500 60  0001 C CNN "Manufacturer"
+F 5 "CRCW060310K0FKEA" H 9300 3500 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 8600 3300 60  0001 C CNN "Supplier"
+F 7 "541-10.0KHCT-ND" H 9300 3300 60  0001 C CNN "Supplier Part Num."
+F 8 "10K" V 8900 3950 60  0000 C CNN "Comp. Value"
+	1    8850 3750
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8400 4450 8400 4650
+	8900 3900 8900 4100
 Wire Wire Line
-	8400 4500 8600 4500
+	8900 3950 9100 3950
 Wire Wire Line
-	8950 4450 9000 4450
+	9450 3900 9500 3900
 Wire Wire Line
-	9000 4450 9000 4400
+	9500 3900 9500 3850
 $Comp
 L +5V #PWR027
 U 1 1 58A82D65
-P 8400 4100
-F 0 "#PWR027" H 8400 3950 50  0001 C CNN
-F 1 "+5V" H 8400 4240 50  0000 C CNN
-F 2 "" H 8400 4100 50  0000 C CNN
-F 3 "" H 8400 4100 50  0000 C CNN
-	1    8400 4100
+P 8900 3550
+F 0 "#PWR027" H 8900 3400 50  0001 C CNN
+F 1 "+5V" H 8900 3690 50  0000 C CNN
+F 2 "" H 8900 3550 50  0000 C CNN
+F 3 "" H 8900 3550 50  0000 C CNN
+	1    8900 3550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8400 4100 8400 4150
+	8900 3550 8900 3600
 Wire Wire Line
-	8400 4650 9000 4650
+	8900 4100 9500 4100
 Wire Wire Line
-	9000 4650 9000 4750
+	9500 4100 9500 4200
 Wire Wire Line
-	9000 4750 8950 4750
-Connection ~ 8400 4500
+	9500 4200 9450 4200
+Connection ~ 8900 3950
 Wire Wire Line
-	8950 4700 9000 4700
-Connection ~ 9000 4700
+	9450 4150 9500 4150
+Connection ~ 9500 4150
 Text Label 8650 1350 0    30   ~ 0
 +5V_SWITCHED
 Wire Wire Line
@@ -1114,7 +1114,7 @@ Wire Wire Line
 Connection ~ 8950 1950
 Wire Wire Line
 	9000 1350 8650 1350
-Text Label 4500 4400 0    30   ~ 0
+Text Label 3850 3750 0    30   ~ 0
 BTLE_POWER_ENABLE
 Text Label 8050 2750 0    30   ~ 0
 ESP32-RTS_BTLE-CTS
@@ -1168,19 +1168,19 @@ Wire Wire Line
 	8050 2800 8750 2800
 Wire Wire Line
 	8750 2800 8750 2650
-NoConn ~ 5850 4650
-NoConn ~ 5850 4700
-NoConn ~ 5850 4800
-NoConn ~ 5850 4850
-NoConn ~ 5850 4900
-NoConn ~ 5850 4950
-NoConn ~ 5850 5000
-NoConn ~ 5850 5050
-NoConn ~ 5050 4500
-NoConn ~ 5050 4700
-NoConn ~ 5050 4850
-NoConn ~ 5050 4900
-NoConn ~ 5050 5050
+NoConn ~ 5200 4000
+NoConn ~ 5200 4050
+NoConn ~ 5200 4150
+NoConn ~ 5200 4200
+NoConn ~ 5200 4250
+NoConn ~ 5200 4300
+NoConn ~ 5200 4350
+NoConn ~ 5200 4400
+NoConn ~ 4400 3850
+NoConn ~ 4400 4050
+NoConn ~ 4400 4200
+NoConn ~ 4400 4250
+NoConn ~ 4400 4400
 Wire Notes Line
 	10500 3000 500  3000
 Wire Notes Line
@@ -1191,24 +1191,22 @@ Wire Notes Line
 	3700 4500 500  4500
 Wire Notes Line
 	500  4500 500  4550
-Wire Notes Line
-	7100 3000 7100 6700
 Text Notes 1300 800  0    60   ~ 0
 USB Power and Debug UART
 Text Notes 4050 850  0    60   ~ 0
 Auto-reset (programming)
 Text Notes 7450 850  0    60   ~ 0
-RS422 converter and RJ45 to BTLE
+RS422 converter and RJ45 to External BTLE
 Text Notes 1450 3200 0    60   ~ 0
 Voltage Regulation
 Text Notes 2500 4700 0    60   ~ 0
 LED Indicators
 Text Notes 1400 6850 0    60   ~ 0
 I2C Thermometer
-Text Notes 5050 3800 0    60   ~ 0
-WiFi Module
-Text Notes 8200 3750 0    60   ~ 0
-Power Control to BTLE
+Text Notes 4500 3350 0    60   ~ 0
+WiFi Module\nLow-Power BTLE
+Text Notes 8700 3200 0    60   ~ 0
+Power Control to External BTLE
 $Comp
 L BJT_NPN_1.5A_25V Q1
 U 1 1 58A880A0
@@ -1242,16 +1240,16 @@ $EndComp
 $Comp
 L ESP32-WROOM U4
 U 1 1 58A897F9
-P 5400 5000
-F 0 "U4" H 5250 5750 60  0000 C CNN
-F 1 "ESP32-WROOM" H 5450 4250 60  0000 C CNN
-F 2 "ovrEngineered:ESP32-WROOM" H 5750 6350 60  0001 C CNN
-F 3 "https://espressif.com/sites/default/files/documentation/esp_wroom_32_datasheet_en.pdf" H 5850 3750 60  0001 C CNN
-F 4 "EspressIf" H 5350 3850 60  0001 C CNN "Manufacturer"
-F 5 "esp-wroom-32" H 5450 3950 60  0001 C CNN "Man. Part Num."
-F 6 "Grid Connect" H 5550 4050 60  0001 C CNN "Supplier"
-F 7 "GC-ESP-WROOM-32" H 5650 4150 60  0001 C CNN "Supplier Part Num."
-	1    5400 5000
+P 4750 4350
+F 0 "U4" H 4600 5100 60  0000 C CNN
+F 1 "ESP32-WROOM" H 4800 3600 60  0000 C CNN
+F 2 "ovrEngineered:ESP32-WROOM" H 5100 5700 60  0001 C CNN
+F 3 "https://espressif.com/sites/default/files/documentation/esp_wroom_32_datasheet_en.pdf" H 5200 3100 60  0001 C CNN
+F 4 "EspressIf" H 4700 3200 60  0001 C CNN "Manufacturer"
+F 5 "esp-wroom-32" H 4800 3300 60  0001 C CNN "Man. Part Num."
+F 6 "Grid Connect" H 4900 3400 60  0001 C CNN "Supplier"
+F 7 "GC-ESP-WROOM-32" H 5000 3500 60  0001 C CNN "Supplier Part Num."
+	1    4750 4350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1297,18 +1295,18 @@ Wire Notes Line
 	3700 6650 500  6650
 Wire Wire Line
 	1700 5650 1650 5650
-Text Label 4500 5200 0    30   ~ 0
+Text Label 3850 4550 0    30   ~ 0
 LED_BTLE_ACT
 Wire Wire Line
-	5050 5200 4500 5200
-NoConn ~ 5050 4450
+	4400 4550 3850 4550
+NoConn ~ 4400 3800
 Wire Wire Line
-	5050 4400 4500 4400
+	4400 3750 3850 3750
 Wire Wire Line
-	4500 4550 5050 4550
-NoConn ~ 5050 5150
+	3850 3900 4400 3900
+NoConn ~ 4400 4500
 Wire Wire Line
-	5050 4650 4500 4650
+	4400 4000 3850 4000
 $Comp
 L C_10uF_10v_0805 C3
 U 1 1 58A98978
@@ -1350,4 +1348,162 @@ Connection ~ 1750 2050
 Wire Wire Line
 	1700 2100 1750 2100
 Connection ~ 1750 2100
+$Comp
+L BLUEGIGA_BLE121 U6
+U 1 1 58AF82C7
+P 7250 5100
+F 0 "U6" H 7550 6350 60  0000 C CNN
+F 1 "BLUEGIGA_BLE121" H 7250 5250 60  0000 C CNN
+F 2 "ovrEngineered:BLE121" H 7450 5150 60  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/BlueGiga%20PDFs/BLE121LR_V1.2.pdf" H 7350 5050 60  0001 C CNN
+F 4 "BlueGiga" H 7000 5150 60  0001 C CNN "Manufacturer"
+F 5 "BLE121LR-A-M256K" H 8300 5200 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 7050 4950 60  0001 C CNN "Supplier"
+F 7 "1446-1039-1-ND" H 7700 4950 60  0001 C CNN "Supplier Part Num."
+	1    7250 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR028
+U 1 1 58AF837C
+P 6650 4900
+F 0 "#PWR028" H 6650 4650 50  0001 C CNN
+F 1 "GND" H 6650 4750 50  0000 C CNN
+F 2 "" H 6650 4900 50  0000 C CNN
+F 3 "" H 6650 4900 50  0000 C CNN
+	1    6650 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 4250 6650 4250
+Wire Wire Line
+	6650 4250 6650 4900
+Wire Wire Line
+	6700 4300 6650 4300
+Connection ~ 6650 4300
+Wire Wire Line
+	6700 4350 6650 4350
+Connection ~ 6650 4350
+Wire Wire Line
+	6700 4400 6650 4400
+Connection ~ 6650 4400
+Wire Wire Line
+	6700 4450 6650 4450
+Connection ~ 6650 4450
+Wire Wire Line
+	6700 4500 6650 4500
+Connection ~ 6650 4500
+Wire Wire Line
+	6700 4550 6650 4550
+Connection ~ 6650 4550
+Wire Wire Line
+	6700 4600 6650 4600
+Connection ~ 6650 4600
+Wire Wire Line
+	6700 4650 6650 4650
+Connection ~ 6650 4650
+Wire Wire Line
+	6700 4700 6650 4700
+Connection ~ 6650 4700
+Wire Wire Line
+	6700 4750 6650 4750
+Connection ~ 6650 4750
+Wire Wire Line
+	6700 4800 6650 4800
+Connection ~ 6650 4800
+Wire Wire Line
+	6700 4850 6650 4850
+Connection ~ 6650 4850
+$Comp
+L +3V3 #PWR029
+U 1 1 58AF9299
+P 7450 3650
+F 0 "#PWR029" H 7450 3500 50  0001 C CNN
+F 1 "+3V3" H 7450 3790 50  0000 C CNN
+F 2 "" H 7450 3650 50  0000 C CNN
+F 3 "" H 7450 3650 50  0000 C CNN
+	1    7450 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 3750 7450 3750
+Wire Wire Line
+	7450 3750 7450 3650
+Wire Wire Line
+	7400 3700 7850 3700
+Connection ~ 7450 3700
+Text Label 6150 3700 0    30   ~ 0
+BTLE_POWER_ENABLE
+Wire Wire Line
+	6150 3700 6700 3700
+NoConn ~ 7400 3900
+Text Label 6150 4000 0    30   ~ 0
+ESP32-RTS_BTLE-CTS
+Text Label 6150 4050 0    30   ~ 0
+ESP32-CTS_BTLE-RTS
+Text Label 6150 3900 0    30   ~ 0
+ESP32-TX_BTLE-RX
+Text Label 6150 3950 0    30   ~ 0
+ESP32-RX_BTLE-TX
+Wire Wire Line
+	6150 3900 6700 3900
+Wire Wire Line
+	6150 3950 6700 3950
+Wire Wire Line
+	6150 4000 6700 4000
+Wire Wire Line
+	6150 4050 6700 4050
+NoConn ~ 6700 3800
+NoConn ~ 6700 3850
+NoConn ~ 6700 4100
+NoConn ~ 6700 4150
+NoConn ~ 7400 4050
+NoConn ~ 7400 4100
+NoConn ~ 7400 4250
+NoConn ~ 7400 4300
+NoConn ~ 7400 4350
+NoConn ~ 7400 4400
+NoConn ~ 7400 4450
+NoConn ~ 7400 4550
+NoConn ~ 7400 4600
+NoConn ~ 7400 4650
+Text Notes 6650 3350 0    60   ~ 0
+High-Power BTLE
+Wire Notes Line
+	5900 3000 5900 6800
+Wire Notes Line
+	5900 6800 6300 6800
+Wire Notes Line
+	8200 3000 8200 6750
+$Comp
+L C_0.1uF_10v_0603 C4
+U 1 1 58AFDCB7
+P 7800 3900
+F 0 "C4" V 7800 4100 60  0000 C CNN
+F 1 "C_0.1uF_10v_0603" H 7800 3750 60  0001 C CNN
+F 2 "ovrEngineered:C_0603" H 8050 3850 60  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf" H 8000 3550 60  0001 C CNN
+F 4 "Murata" H 7500 3650 60  0001 C CNN "Manufacturer"
+F 5 "GRM188R71C104KA01D" H 8250 3650 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 7550 3450 60  0001 C CNN "Supplier"
+F 7 "490-1532-1-ND" H 8250 3450 60  0001 C CNN "Supplier Part Num."
+F 8 "0.1uF" V 7900 4150 60  0000 C CNN "Comp. Value"
+	1    7800 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR030
+U 1 1 58AFDFB2
+P 7850 4100
+F 0 "#PWR030" H 7850 3850 50  0001 C CNN
+F 1 "GND" H 7850 3950 50  0000 C CNN
+F 2 "" H 7850 4100 50  0000 C CNN
+F 3 "" H 7850 4100 50  0000 C CNN
+	1    7850 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 3700 7850 3750
+Wire Wire Line
+	7850 4050 7850 4100
 $EndSCHEMATC
