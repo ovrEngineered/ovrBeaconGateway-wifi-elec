@@ -10,7 +10,7 @@ encoding utf-8
 Sheet 1 1
 Title "ovrBeacon Gateway - WiFi"
 Date "17-Feb-2017"
-Rev "v0.1"
+Rev "v0.2"
 Comp "ovrEngineered, LLC"
 Comment1 ""
 Comment2 ""
@@ -20,77 +20,61 @@ $EndDescr
 $Comp
 L CONN_RJ45_RA J2
 U 1 1 58A75376
-P 9250 2000
-F 0 "J2" H 9450 2500 60  0000 C CNN
-F 1 "CONN_RJ45_RA" H 9700 2350 60  0000 C CNN
-F 2 "ovrEngineered:RJ45_NOMAG_RA" H 9300 2200 60  0001 C CNN
-F 3 "http://productfinder.pulseeng.com/products/datasheets/E6588-52L184-L.pdf" H 9450 1650 60  0001 C CNN
-F 4 "Pulse Electronics" H 8950 1750 60  0001 C CNN "Manufacturer"
-F 5 "E6588-52L184-L" H 9700 1750 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 9000 1550 60  0001 C CNN "Supplier"
-F 7 "553-2265-ND" H 9700 1550 60  0001 C CNN "Supplier Part Num."
-	1    9250 2000
+P 9900 2500
+F 0 "J2" H 10100 3000 60  0000 C CNN
+F 1 "CONN_RJ45_RA" H 10100 2250 60  0000 C CNN
+F 2 "ovrEngineered:RJ45_NOMAG_RA" H 9950 2700 60  0001 C CNN
+F 3 "http://productfinder.pulseeng.com/products/datasheets/E6588-52L184-L.pdf" H 10100 2150 60  0001 C CNN
+F 4 "Pulse Electronics" H 9600 2250 60  0001 C CNN "Manufacturer"
+F 5 "E6588-52L184-L" H 10350 2250 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 9650 2050 60  0001 C CNN "Supplier"
+F 7 "553-2265-ND" H 10350 2050 60  0001 C CNN "Supplier Part Num."
+	1    9900 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L TOREX_XC6210 U2
 U 1 1 58A753C6
-P 1900 3900
-F 0 "U2" H 1800 4350 60  0000 C CNN
-F 1 "TOREX_XC6210" H 1900 4050 60  0000 C CNN
-F 2 "ovrEngineered:SOT-25-5" H 2100 3950 60  0001 C CNN
-F 3 "https://www.torexsemi.com/file/xc6210/XC6210.pdf" H 2000 3850 60  0001 C CNN
-F 4 "Torex Semiconductor" H 1650 3950 60  0001 C CNN "Manufacturer"
-F 5 "XC6210B332MR-G" H 2950 4000 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 1700 3750 60  0001 C CNN "Supplier"
-F 7 "893-1075-1-ND" H 2350 3750 60  0001 C CNN "Supplier Part Num."
-	1    1900 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L CREE_CLV1A_FKB D3
-U 1 1 58A754A7
-P 1600 6300
-F 0 "D3" H 1600 6250 60  0000 C CNN
-F 1 "CREE_CLV1A_FKB" H 1600 6150 60  0001 C CNN
-F 2 "ovrEngineered:CREE_CLV1A_FKB" H 1850 6250 60  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/CREE%20Power/CLV1A-FKB_Rev5.pdf" H 1800 5950 60  0001 C CNN
-F 4 "Cree Inc." H 1300 6050 60  0001 C CNN "Manufacturer"
-F 5 "CLV1A-FKB-CK1N1G1BB7R4S3" H 2050 6050 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 1350 5850 60  0001 C CNN "Supplier"
-F 7 "CLV1A-FKB-CK1N1G1BB7R4S3CT-ND" H 2050 5850 60  0001 C CNN "Supplier Part Num."
-F 8 "RGB" H 1600 6850 60  0001 C CNN "Comp. Value"
-	1    1600 6300
+P 1300 3900
+F 0 "U2" H 1200 4350 60  0000 C CNN
+F 1 "TOREX_XC6210" H 1300 4050 60  0000 C CNN
+F 2 "ovrEngineered:SOT-25-5" H 1500 3950 60  0001 C CNN
+F 3 "https://www.torexsemi.com/file/xc6210/XC6210.pdf" H 1400 3850 60  0001 C CNN
+F 4 "Torex Semiconductor" H 1050 3950 60  0001 C CNN "Manufacturer"
+F 5 "XC6210B332MR-G" H 2350 4000 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 1100 3750 60  0001 C CNN "Supplier"
+F 7 "893-1075-1-ND" H 1750 3750 60  0001 C CNN "Supplier Part Num."
+	1    1300 3900
 	1    0    0    -1  
 $EndComp
 $Comp
 L SILICONLABS_SI7050 U1
 U 1 1 58A75566
-P 1750 7700
-F 0 "U1" H 1650 8250 60  0000 C CNN
-F 1 "SILICONLABS_SI7050" H 2050 7900 60  0000 C CNN
-F 2 "ovrEngineered:SILICONLABS_SI7050" H 1950 7750 60  0001 C CNN
-F 3 "http://www.silabs.com/Support%20Documents/TechnicalDocs/Si7050-1-3-4-5-A20.pdf" H 1850 7650 60  0001 C CNN
-F 4 "Silicon Labs" H 1500 7750 60  0001 C CNN "Manufacturer"
-F 5 "SI7050-A20-IM" H 2800 7800 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 1550 7550 60  0001 C CNN "Supplier"
-F 7 "336-3118-5-ND" H 2200 7550 60  0001 C CNN "Supplier Part Num."
-	1    1750 7700
+P 7900 6150
+F 0 "U1" H 7800 6700 60  0000 C CNN
+F 1 "SILICONLABS_SI7050" H 8200 6350 60  0000 C CNN
+F 2 "ovrEngineered:SILICONLABS_SI7050" H 8100 6200 60  0001 C CNN
+F 3 "http://www.silabs.com/Support%20Documents/TechnicalDocs/Si7050-1-3-4-5-A20.pdf" H 8000 6100 60  0001 C CNN
+F 4 "Silicon Labs" H 7650 6200 60  0001 C CNN "Manufacturer"
+F 5 "SI7050-A20-IM" H 8950 6250 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 7700 6000 60  0001 C CNN "Supplier"
+F 7 "336-3118-5-ND" H 8350 6000 60  0001 C CNN "Supplier Part Num."
+	1    7900 6150
 	1    0    0    -1  
 $EndComp
 $Comp
 L INTERSIL_ISL32602EFBZ U5
 U 1 1 58A755D7
-P 7900 2100
-F 0 "U5" H 7900 2900 60  0000 C CNN
-F 1 "INTERSIL_ISL32602EFBZ" H 7900 2000 60  0000 C CNN
-F 2 "ovrEngineered:SOIC-14" H 7900 2100 60  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/fn79/fn7967.pdf" H 8000 2050 60  0001 C CNN
-F 4 "Intersil" H 7650 2150 60  0001 C CNN "Manufacturer"
-F 5 "ISL32602EFBZ" H 8150 2150 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 7700 1950 60  0001 C CNN "Supplier"
-F 7 "ISL32602EFBZ-ND" H 8350 1950 60  0001 C CNN "Supplier Part Num."
-	1    7900 2100
+P 8300 2600
+F 0 "U5" H 8400 2700 60  0000 C CNN
+F 1 "INTERSIL_ISL32602EFBZ" H 8300 2550 60  0000 C CNN
+F 2 "ovrEngineered:SOIC-14" H 8300 2600 60  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/fn79/fn7967.pdf" H 8400 2550 60  0001 C CNN
+F 4 "Intersil" H 8050 2650 60  0001 C CNN "Manufacturer"
+F 5 "ISL32602EFBZ" H 8550 2650 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 8100 2450 60  0001 C CNN "Supplier"
+F 7 "ISL32602EFBZ-ND" H 8750 2450 60  0001 C CNN "Supplier Part Num."
+	1    8300 2600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -213,209 +197,752 @@ NoConn ~ 3250 1900
 NoConn ~ 3250 1950
 NoConn ~ 3250 2050
 NoConn ~ 3250 2100
-Text Label 5400 1550 2    30   ~ 0
+Text Label 5000 1550 2    30   ~ 0
 ESP32_EN
-Text Label 5400 2050 2    30   ~ 0
+Text Label 5000 2050 2    30   ~ 0
 ESP32_IO0
 $Comp
 L C_10uF_10v_0805 C1
 U 1 1 58A79298
-P 1400 3750
-F 0 "C1" V 1350 3650 60  0000 C CNN
-F 1 "C_10uF_10v_0805" H 1400 3600 60  0001 C CNN
-F 2 "ovrEngineered:C_0805" H 1650 3700 60  0001 C CNN
-F 3 "http://psearch.murata.com/capacitor/product/GRM21BR71A106KE51%23.pdf" H 1600 3400 60  0001 C CNN
-F 4 "Murata" H 1100 3500 60  0001 C CNN "Manufacturer"
-F 5 "GRM21BR71A106KE51L" H 1850 3500 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 1150 3300 60  0001 C CNN "Supplier"
-F 7 "490-3905-1-ND" H 1850 3300 60  0001 C CNN "Supplier Part Num."
-F 8 "10uF" V 1450 3600 60  0000 C CNN "Comp. Value"
-	1    1400 3750
+P 800 3750
+F 0 "C1" V 750 3650 60  0000 C CNN
+F 1 "C_10uF_10v_0805" H 800 3600 60  0001 C CNN
+F 2 "ovrEngineered:C_0805" H 1050 3700 60  0001 C CNN
+F 3 "http://psearch.murata.com/capacitor/product/GRM21BR71A106KE51%23.pdf" H 1000 3400 60  0001 C CNN
+F 4 "Murata" H 500 3500 60  0001 C CNN "Manufacturer"
+F 5 "GRM21BR71A106KE51L" H 1250 3500 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 550 3300 60  0001 C CNN "Supplier"
+F 7 "490-3905-1-ND" H 1250 3300 60  0001 C CNN "Supplier Part Num."
+F 8 "10uF" V 850 3600 60  0000 C CNN "Comp. Value"
+	1    800  3750
 	0    1    1    0   
 $EndComp
 $Comp
 L +5V #PWR06
 U 1 1 58A7956C
-P 1450 3500
-F 0 "#PWR06" H 1450 3350 50  0001 C CNN
-F 1 "+5V" H 1450 3640 50  0000 C CNN
-F 2 "" H 1450 3500 50  0000 C CNN
-F 3 "" H 1450 3500 50  0000 C CNN
-	1    1450 3500
+P 850 3500
+F 0 "#PWR06" H 850 3350 50  0001 C CNN
+F 1 "+5V" H 850 3640 50  0000 C CNN
+F 2 "" H 850 3500 50  0000 C CNN
+F 3 "" H 850 3500 50  0000 C CNN
+	1    850  3500
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR07
 U 1 1 58A7961E
-P 1450 4000
-F 0 "#PWR07" H 1450 3750 50  0001 C CNN
-F 1 "GND" H 1450 3850 50  0000 C CNN
-F 2 "" H 1450 4000 50  0000 C CNN
-F 3 "" H 1450 4000 50  0000 C CNN
-	1    1450 4000
+P 850 4000
+F 0 "#PWR07" H 850 3750 50  0001 C CNN
+F 1 "GND" H 850 3850 50  0000 C CNN
+F 2 "" H 850 4000 50  0000 C CNN
+F 3 "" H 850 4000 50  0000 C CNN
+	1    850  4000
 	1    0    0    -1  
 $EndComp
 $Comp
 L +3V3 #PWR08
 U 1 1 58A79741
-P 2350 3500
-F 0 "#PWR08" H 2350 3350 50  0001 C CNN
-F 1 "+3V3" H 2350 3640 50  0000 C CNN
-F 2 "" H 2350 3500 50  0000 C CNN
-F 3 "" H 2350 3500 50  0000 C CNN
-	1    2350 3500
+P 1750 3500
+F 0 "#PWR08" H 1750 3350 50  0001 C CNN
+F 1 "+3V3" H 1750 3640 50  0000 C CNN
+F 2 "" H 1750 3500 50  0000 C CNN
+F 3 "" H 1750 3500 50  0000 C CNN
+	1    1750 3500
 	1    0    0    -1  
 $EndComp
 $Comp
 L C_10uF_10v_0805 C2
 U 1 1 58A797EB
-P 2400 3750
-F 0 "C2" V 2350 3650 60  0000 C CNN
-F 1 "C_10uF_10v_0805" H 2400 3600 60  0001 C CNN
-F 2 "ovrEngineered:C_0805" H 2650 3700 60  0001 C CNN
-F 3 "http://psearch.murata.com/capacitor/product/GRM21BR71A106KE51%23.pdf" H 2600 3400 60  0001 C CNN
-F 4 "Murata" H 2100 3500 60  0001 C CNN "Manufacturer"
-F 5 "GRM21BR71A106KE51L" H 2850 3500 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 2150 3300 60  0001 C CNN "Supplier"
-F 7 "490-3905-1-ND" H 2850 3300 60  0001 C CNN "Supplier Part Num."
-F 8 "10uF" V 2450 3600 60  0000 C CNN "Comp. Value"
-	1    2400 3750
+P 1800 3750
+F 0 "C2" V 1750 3650 60  0000 C CNN
+F 1 "C_10uF_10v_0805" H 1800 3600 60  0001 C CNN
+F 2 "ovrEngineered:C_0805" H 2050 3700 60  0001 C CNN
+F 3 "http://psearch.murata.com/capacitor/product/GRM21BR71A106KE51%23.pdf" H 2000 3400 60  0001 C CNN
+F 4 "Murata" H 1500 3500 60  0001 C CNN "Manufacturer"
+F 5 "GRM21BR71A106KE51L" H 2250 3500 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 1550 3300 60  0001 C CNN "Supplier"
+F 7 "490-3905-1-ND" H 2250 3300 60  0001 C CNN "Supplier Part Num."
+F 8 "10uF" V 1850 3600 60  0000 C CNN "Comp. Value"
+	1    1800 3750
 	0    -1   1    0   
 $EndComp
 $Comp
 L GND #PWR09
 U 1 1 58A798FD
-P 2350 4000
-F 0 "#PWR09" H 2350 3750 50  0001 C CNN
-F 1 "GND" H 2350 3850 50  0000 C CNN
-F 2 "" H 2350 4000 50  0000 C CNN
-F 3 "" H 2350 4000 50  0000 C CNN
-	1    2350 4000
+P 1750 4000
+F 0 "#PWR09" H 1750 3750 50  0001 C CNN
+F 1 "GND" H 1750 3850 50  0000 C CNN
+F 2 "" H 1750 4000 50  0000 C CNN
+F 3 "" H 1750 4000 50  0000 C CNN
+	1    1750 4000
 	1    0    0    -1  
 $EndComp
+Text Label 5200 5400 2    30   ~ 0
+ESP32_EN
+Text Label 3400 5350 0    30   ~ 0
+ESP32_IO0
+Text Label 5200 5500 2    30   ~ 0
+ESP32-TX_DBG-RX
+Text Label 5200 5550 2    30   ~ 0
+ESP32-RX_DBG-TX
 $Comp
-L LED_GREEN_0603 D1
-U 1 1 58A79DE4
-P 1600 4900
-F 0 "D1" H 1600 4850 60  0000 C CNN
-F 1 "LED_GREEN_0603" H 1600 4750 60  0001 C CNN
-F 2 "ovrEngineered:D_0603" H 1850 4850 60  0001 C CNN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2007-0094/S_110_LTST-C193KGKT-5A.pdf" H 1800 4550 60  0001 C CNN
-F 4 "Lite-On Inc" H 1300 4650 60  0001 C CNN "Manufacturer"
-F 5 "LTST-C193KGKT-5A" H 2050 4650 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 1350 4450 60  0001 C CNN "Supplier"
-F 7 "160-1828-1-ND" H 2050 4450 60  0001 C CNN "Supplier Part Num."
-F 8 "Green" H 1600 5150 60  0000 C CNN "Comp. Value"
-	1    1600 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED_RED_0603 D2
-U 1 1 58A79E6E
-P 1600 5300
-F 0 "D2" H 1600 5250 60  0000 C CNN
-F 1 "LED_RED_0603" H 1600 5150 60  0001 C CNN
-F 2 "ovrEngineered:D_0603" H 1850 5250 60  0001 C CNN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2007-0094/S_110_LTST-C193KGKT-5A.pdf" H 1800 4950 60  0001 C CNN
-F 4 "Lite-On Inc" H 1300 5050 60  0001 C CNN "Manufacturer"
-F 5 "LTST-C193KRKT-5A" H 2050 5050 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 1350 4850 60  0001 C CNN "Supplier"
-F 7 "160-1830-1-ND" H 2050 4850 60  0001 C CNN "Supplier Part Num."
-F 8 "Red" H 1600 5550 60  0000 C CNN "Comp. Value"
-	1    1600 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_402_1%_0603 R3
-U 1 1 58A7A054
-P 1850 6000
-F 0 "R3" H 1950 6000 60  0000 C CNN
-F 1 "R_402_1%_0603" H 1850 5850 60  0001 C CNN
-F 2 "ovrEngineered:R_0603" H 1850 6000 60  0001 C CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 2050 5650 60  0001 C CNN
-F 4 "Vishay_Dale" H 1550 5750 60  0001 C CNN "Manufacturer"
-F 5 "CRCW0603402RFKEA" H 2300 5750 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 1600 5550 60  0001 C CNN "Supplier"
-F 7 "541-402HCT-ND" H 2300 5550 60  0001 C CNN "Supplier Part Num."
-F 8 "402" H 1800 6150 60  0001 C CNN "Comp. Value"
-	1    1850 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_402_1%_0603 R4
-U 1 1 58A7A192
-P 1850 6150
-F 0 "R4" H 1950 6150 60  0000 C CNN
-F 1 "R_402_1%_0603" H 1850 6000 60  0001 C CNN
-F 2 "ovrEngineered:R_0603" H 1850 6150 60  0001 C CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 2050 5800 60  0001 C CNN
-F 4 "Vishay_Dale" H 1550 5900 60  0001 C CNN "Manufacturer"
-F 5 "CRCW0603402RFKEA" H 2300 5900 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 1600 5700 60  0001 C CNN "Supplier"
-F 7 "541-402HCT-ND" H 2300 5700 60  0001 C CNN "Supplier Part Num."
-F 8 "402" H 1800 6300 60  0001 C CNN "Comp. Value"
-	1    1850 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_402_1%_0603 R5
-U 1 1 58A7A1E3
-P 1850 6300
-F 0 "R5" H 1950 6250 60  0000 C CNN
-F 1 "R_402_1%_0603" H 1850 6150 60  0001 C CNN
-F 2 "ovrEngineered:R_0603" H 1850 6300 60  0001 C CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 2050 5950 60  0001 C CNN
-F 4 "Vishay_Dale" H 1550 6050 60  0001 C CNN "Manufacturer"
-F 5 "CRCW0603402RFKEA" H 2300 6050 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 1600 5850 60  0001 C CNN "Supplier"
-F 7 "541-402HCT-ND" H 2300 5850 60  0001 C CNN "Supplier Part Num."
-F 8 "402" H 1800 6250 60  0000 C CNN "Comp. Value"
-	1    1850 6300
-	1    0    0    -1  
+L R_12K_1%_0603 R10
+U 1 1 58A7B136
+P 5400 3850
+F 0 "R10" V 5350 4050 60  0000 C CNN
+F 1 "R_12K_1%_0603" H 5400 3700 60  0001 C CNN
+F 2 "ovrEngineered:R_0603" H 5400 3850 60  0001 C CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 5600 3500 60  0001 C CNN
+F 4 "Vishay_Dale" H 5100 3600 60  0001 C CNN "Manufacturer"
+F 5 "CRCW060312K0FKEA" H 5850 3600 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 5150 3400 60  0001 C CNN "Supplier"
+F 7 "541-12.0KHCT-ND" H 5850 3400 60  0001 C CNN "Supplier Part Num."
+F 8 "12K" V 5450 4050 60  0000 C CNN "Comp. Value"
+	1    5400 3850
+	0    1    1    0   
 $EndComp
 $Comp
 L +3V3 #PWR010
-U 1 1 58A7A58C
-P 1350 4750
-F 0 "#PWR010" H 1350 4600 50  0001 C CNN
-F 1 "+3V3" H 1350 4890 50  0000 C CNN
-F 2 "" H 1350 4750 50  0000 C CNN
-F 3 "" H 1350 4750 50  0000 C CNN
-	1    1350 4750
+U 1 1 58A78CCF
+P 4800 5300
+F 0 "#PWR010" H 4800 5150 50  0001 C CNN
+F 1 "+3V3" H 4800 5440 50  0000 C CNN
+F 2 "" H 4800 5300 50  0000 C CNN
+F 3 "" H 4800 5300 50  0000 C CNN
+	1    4800 5300
+	1    0    0    -1  
+$EndComp
+Text Label 3400 5800 0    30   ~ 0
+ESP32-TX_BTLE-RX
+Text Label 3400 5750 0    30   ~ 0
+ESP32-RX_BTLE-TX
+$Comp
+L GND #PWR011
+U 1 1 58A7AA76
+P 7950 2400
+F 0 "#PWR011" H 7950 2150 50  0001 C CNN
+F 1 "GND" H 7950 2250 50  0000 C CNN
+F 2 "" H 7950 2400 50  0000 C CNN
+F 3 "" H 7950 2400 50  0000 C CNN
+	1    7950 2400
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_402_1%_0603 R2
-U 1 1 58A7A737
-P 1850 5300
-F 0 "R2" H 1950 5250 60  0000 C CNN
-F 1 "R_402_1%_0603" H 1850 5150 60  0001 C CNN
-F 2 "ovrEngineered:R_0603" H 1850 5300 60  0001 C CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 2050 4950 60  0001 C CNN
-F 4 "Vishay_Dale" H 1550 5050 60  0001 C CNN "Manufacturer"
-F 5 "CRCW0603402RFKEA" H 2300 5050 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 1600 4850 60  0001 C CNN "Supplier"
-F 7 "541-402HCT-ND" H 2300 4850 60  0001 C CNN "Supplier Part Num."
-F 8 "402" H 1800 5250 60  0000 C CNN "Comp. Value"
-	1    1850 5300
+L GND #PWR012
+U 1 1 58A7AF99
+P 9600 2550
+F 0 "#PWR012" H 9600 2300 50  0001 C CNN
+F 1 "GND" H 9600 2400 50  0000 C CNN
+F 2 "" H 9600 2550 50  0000 C CNN
+F 3 "" H 9600 2550 50  0000 C CNN
+	1    9600 2550
+	1    0    0    -1  
+$EndComp
+Text Label 3400 5650 0    30   ~ 0
+ESP32-CTS_BTLE-RTS
+Text Label 3400 5600 0    30   ~ 0
+ESP32-RTS_BTLE-CTS
+Text Label 7350 2200 0    30   ~ 0
+ESP32-TX_BTLE-RX
+Text Label 7350 2050 0    30   ~ 0
+ESP32-RX_BTLE-TX
+$Comp
+L GND #PWR013
+U 1 1 58A7D305
+P 3900 6700
+F 0 "#PWR013" H 3900 6450 50  0001 C CNN
+F 1 "GND" H 3900 6550 50  0000 C CNN
+F 2 "" H 3900 6700 50  0000 C CNN
+F 3 "" H 3900 6700 50  0000 C CNN
+	1    3900 6700
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_402_1%_0603 R1
-U 1 1 58A7A796
-P 1850 4900
-F 0 "R1" H 1950 4850 60  0000 C CNN
-F 1 "R_402_1%_0603" H 1850 4750 60  0001 C CNN
-F 2 "ovrEngineered:R_0603" H 1850 4900 60  0001 C CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 2050 4550 60  0001 C CNN
-F 4 "Vishay_Dale" H 1550 4650 60  0001 C CNN "Manufacturer"
-F 5 "CRCW0603402RFKEA" H 2300 4650 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 1600 4450 60  0001 C CNN "Supplier"
-F 7 "541-402HCT-ND" H 2300 4450 60  0001 C CNN "Supplier Part Num."
-F 8 "402" H 1800 4850 60  0000 C CNN "Comp. Value"
-	1    1850 4900
+L +3V3 #PWR014
+U 1 1 58A7D4BB
+P 8250 5650
+F 0 "#PWR014" H 8250 5500 50  0001 C CNN
+F 1 "+3V3" H 8250 5790 50  0000 C CNN
+F 2 "" H 8250 5650 50  0000 C CNN
+F 3 "" H 8250 5650 50  0000 C CNN
+	1    8250 5650
 	1    0    0    -1  
 $EndComp
+$Comp
+L GND #PWR015
+U 1 1 58A7D511
+P 7550 5900
+F 0 "#PWR015" H 7550 5650 50  0001 C CNN
+F 1 "GND" H 7550 5750 50  0000 C CNN
+F 2 "" H 7550 5900 50  0000 C CNN
+F 3 "" H 7550 5900 50  0000 C CNN
+	1    7550 5900
+	1    0    0    -1  
+$EndComp
+Text Label 3400 5950 0    30   ~ 0
+SCL_ESP32
+Text Label 3400 5900 0    30   ~ 0
+SDA_ESP32
+$Comp
+L GND #PWR016
+U 1 1 58A7E742
+P 1750 4000
+F 0 "#PWR016" H 1750 3750 50  0001 C CNN
+F 1 "GND" H 1750 3850 50  0000 C CNN
+F 2 "" H 1750 4000 50  0000 C CNN
+F 3 "" H 1750 4000 50  0000 C CNN
+	1    1750 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L FET_NP_5A/3A_60V Q3
+U 1 1 58A80B60
+P 9300 1600
+F 0 "Q3" H 9250 2400 60  0000 C CNN
+F 1 "FET_NP_5A/3A_60V" H 9950 2250 60  0000 C CNN
+F 2 "ovrEngineered:SO-8" H 9300 1600 60  0001 C CNN
+F 3 "http://diodes.com/datasheets/DMC6040SSD.pdf" H 9400 1550 60  0001 C CNN
+F 4 "International Rectifier" H 8800 1650 60  0001 C CNN "Manufacturer"
+F 5 "DMC6040SSD-13" H 9750 1650 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 9100 1450 60  0001 C CNN "Supplier"
+F 7 "DMC6040SSD-13DICT-ND" H 9750 1450 60  0001 C CNN "Supplier Part Num."
+	1    9300 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR017
+U 1 1 58A80DC5
+P 9450 850
+F 0 "#PWR017" H 9450 700 50  0001 C CNN
+F 1 "+5V" H 9450 990 50  0000 C CNN
+F 2 "" H 9450 850 50  0000 C CNN
+F 3 "" H 9450 850 50  0000 C CNN
+	1    9450 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR018
+U 1 1 58A817D5
+P 9450 1350
+F 0 "#PWR018" H 9450 1100 50  0001 C CNN
+F 1 "GND" H 9450 1200 50  0000 C CNN
+F 2 "" H 9450 1350 50  0000 C CNN
+F 3 "" H 9450 1350 50  0000 C CNN
+	1    9450 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_10K_1%_0603 R15
+U 1 1 58A8219F
+P 8650 1400
+F 0 "R15" H 8650 1550 60  0000 C CNN
+F 1 "R_10K_1%_0603" H 8650 1250 60  0001 C CNN
+F 2 "ovrEngineered:R_0603" H 8650 1400 60  0001 C CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 8850 1050 60  0001 C CNN
+F 4 "Vishay_Dale" H 8350 1150 60  0001 C CNN "Manufacturer"
+F 5 "CRCW060310K0FKEA" H 9100 1150 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 8400 950 60  0001 C CNN "Supplier"
+F 7 "541-10.0KHCT-ND" H 9100 950 60  0001 C CNN "Supplier Part Num."
+F 8 "10K" H 8650 1350 60  0000 C CNN "Comp. Value"
+	1    8650 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR019
+U 1 1 58A8247A
+P 8450 1500
+F 0 "#PWR019" H 8450 1250 50  0001 C CNN
+F 1 "GND" H 8450 1350 50  0000 C CNN
+F 2 "" H 8450 1500 50  0000 C CNN
+F 3 "" H 8450 1500 50  0000 C CNN
+	1    8450 1500
+	1    0    0    -1  
+$EndComp
+Text Label 7350 1250 0    30   ~ 0
+BTLE_POWER_ENABLE
+$Comp
+L R_10K_1%_0603 R14
+U 1 1 58A82B69
+P 8650 900
+F 0 "R14" H 8650 1050 60  0000 C CNN
+F 1 "R_10K_1%_0603" H 8650 750 60  0001 C CNN
+F 2 "ovrEngineered:R_0603" H 8650 900 60  0001 C CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 8850 550 60  0001 C CNN
+F 4 "Vishay_Dale" H 8350 650 60  0001 C CNN "Manufacturer"
+F 5 "CRCW060310K0FKEA" H 9100 650 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 8400 450 60  0001 C CNN "Supplier"
+F 7 "541-10.0KHCT-ND" H 9100 450 60  0001 C CNN "Supplier Part Num."
+F 8 "10K" H 8650 850 60  0000 C CNN "Comp. Value"
+	1    8650 900 
+	-1   0    0    1   
+$EndComp
+$Comp
+L +5V #PWR020
+U 1 1 58A82D65
+P 8450 850
+F 0 "#PWR020" H 8450 700 50  0001 C CNN
+F 1 "+5V" H 8450 990 50  0000 C CNN
+F 2 "" H 8450 850 50  0000 C CNN
+F 3 "" H 8450 850 50  0000 C CNN
+	1    8450 850 
+	1    0    0    -1  
+$EndComp
+Text Label 3400 5450 0    30   ~ 0
+BTLE_POWER_ENABLE
+Text Label 7350 2800 0    30   ~ 0
+ESP32-RTS_BTLE-CTS
+Text Label 7350 2850 0    30   ~ 0
+ESP32-CTS_BTLE-RTS
+$Comp
+L R_0_0603 R17
+U 1 1 58A84C7E
+P 9200 2550
+F 0 "R17" V 9150 2750 60  0000 C CNN
+F 1 "R_0_0603" H 9200 2400 60  0001 C CNN
+F 2 "ovrEngineered:R_0603" H 9200 2550 60  0001 C CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 9400 2200 60  0001 C CNN
+F 4 "Vishay_Dale" H 8900 2300 60  0001 C CNN "Manufacturer"
+F 5 "CRCW06030000Z0EA" H 9650 2300 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 8950 2100 60  0001 C CNN "Supplier"
+F 7 "541-0.0GCT-ND" H 9650 2100 60  0001 C CNN "Supplier Part Num."
+F 8 "0" V 9250 2750 60  0000 C CNN "Comp. Value"
+	1    9200 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L R_0_0603 R16
+U 1 1 58A85186
+P 9150 2550
+F 0 "R16" V 9100 2750 60  0000 C CNN
+F 1 "R_0_0603" H 9150 2400 60  0001 C CNN
+F 2 "ovrEngineered:R_0603" H 9150 2550 60  0001 C CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 9350 2200 60  0001 C CNN
+F 4 "Vishay_Dale" H 8850 2300 60  0001 C CNN "Manufacturer"
+F 5 "CRCW06030000Z0EA" H 9600 2300 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 8900 2100 60  0001 C CNN "Supplier"
+F 7 "541-0.0GCT-ND" H 9600 2100 60  0001 C CNN "Supplier Part Num."
+F 8 "0" V 9200 2750 60  0000 C CNN "Comp. Value"
+	1    9150 2550
+	0    -1   1    0   
+$EndComp
+NoConn ~ 4750 5650
+NoConn ~ 4750 5700
+NoConn ~ 4750 5800
+NoConn ~ 4750 5850
+NoConn ~ 4750 5900
+NoConn ~ 4750 5950
+NoConn ~ 4750 6000
+NoConn ~ 4750 6050
+NoConn ~ 3950 5500
+NoConn ~ 3950 5700
+Text Notes 1350 800  0    60   ~ 0
+USB Power
+Text Notes 7350 650  0    60   ~ 0
+BTLE Variant: External
+Text Notes 850  3200 0    60   ~ 0
+Voltage Regulation
+Text Notes 4050 5000 0    60   ~ 0
+WiFi Module
+$Comp
+L BJT_NPN_1.5A_25V Q1
+U 1 1 58A880A0
+P 4550 1650
+F 0 "Q1" H 4500 2150 60  0000 C CNN
+F 1 "BJT_NPN_1.5A_25V" H 4550 2250 60  0000 C CNN
+F 2 "ovrEngineered:SOT-23-3" H 5300 1800 60  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/MMSS8050(SOT-23).pdf" H 4650 1600 60  0001 C CNN
+F 4 "Micro Commercial Co" H 4100 1700 60  0001 C CNN "Manufacturer"
+F 5 "MMSS8050-H-TP" H 5000 1700 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 4350 1500 60  0001 C CNN "Supplier"
+F 7 "MMSS8050-H-TPMSCT-ND" H 5000 1500 60  0001 C CNN "Supplier Part Num."
+	1    4550 1650
+	1    0    0    1   
+$EndComp
+$Comp
+L BJT_NPN_1.5A_25V Q2
+U 1 1 58A88137
+P 4550 1950
+F 0 "Q2" H 4500 2450 60  0000 C CNN
+F 1 "BJT_NPN_1.5A_25V" H 4550 2100 60  0001 C CNN
+F 2 "ovrEngineered:SOT-23-3" H 5300 2100 60  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/MMSS8050(SOT-23).pdf" H 4650 1900 60  0001 C CNN
+F 4 "Micro Commercial Co" H 4100 2000 60  0001 C CNN "Manufacturer"
+F 5 "MMSS8050-H-TP" H 5000 2000 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 4350 1800 60  0001 C CNN "Supplier"
+F 7 "MMSS8050-H-TPMSCT-ND" H 5000 1800 60  0001 C CNN "Supplier Part Num."
+	1    4550 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_10uF_10v_0805 C3
+U 1 1 58A98978
+P 2200 3750
+F 0 "C3" V 2150 3650 60  0000 C CNN
+F 1 "C_10uF_10v_0805" H 2200 3600 60  0001 C CNN
+F 2 "ovrEngineered:C_0805" H 2450 3700 60  0001 C CNN
+F 3 "http://psearch.murata.com/capacitor/product/GRM21BR71A106KE51%23.pdf" H 2400 3400 60  0001 C CNN
+F 4 "Murata" H 1900 3500 60  0001 C CNN "Manufacturer"
+F 5 "GRM21BR71A106KE51L" H 2650 3500 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 1950 3300 60  0001 C CNN "Supplier"
+F 7 "490-3905-1-ND" H 2650 3300 60  0001 C CNN "Supplier Part Num."
+F 8 "10uF" V 2250 3600 60  0000 C CNN "Comp. Value"
+	1    2200 3750
+	0    -1   1    0   
+$EndComp
+$Comp
+L USB_MICROB_RA_LONG J1
+U 1 1 58A9DC36
+P 1550 2200
+F 0 "J1" H 1950 2650 60  0000 C CNN
+F 1 "USB_MICROB_RA_LONG" H 2050 2200 60  0000 C CNN
+F 2 "ovrEngineered:UJ2-MIBH-4-SMT" H 1550 2450 60  0001 C CNN
+F 3 "http://www.cui.com/product/resource/digikeypdf/uj2-mibh-4-smt.pdf" H 1750 1850 60  0001 C CNN
+F 4 "CUI, Inc" H 1250 1950 60  0001 C CNN "Manufacturer"
+F 5 "UJ2-MIBH-4-SMT" H 2000 1950 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 1300 1750 60  0001 C CNN "Supplier"
+F 7 "102-4006-1-ND" H 2000 1750 60  0001 C CNN "Supplier Part Num."
+	1    1550 2200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L BLUEGIGA_BLE121 U6
+U 1 1 58AF82C7
+P 9500 5000
+F 0 "U6" H 9150 6500 60  0000 C CNN
+F 1 "BLUEGIGA_BLE121" H 9500 5150 60  0000 C CNN
+F 2 "ovrEngineered:BLE121" H 9700 5050 60  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/BlueGiga%20PDFs/BLE121LR_V1.2.pdf" H 9600 4950 60  0001 C CNN
+F 4 "BlueGiga" H 9250 5050 60  0001 C CNN "Manufacturer"
+F 5 "BLE121LR-A-M256K" H 10550 5100 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 9300 4850 60  0001 C CNN "Supplier"
+F 7 "1446-1039-1-ND" H 9950 4850 60  0001 C CNN "Supplier Part Num."
+	1    9500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR021
+U 1 1 58AF837C
+P 8900 4800
+F 0 "#PWR021" H 8900 4550 50  0001 C CNN
+F 1 "GND" H 8900 4650 50  0000 C CNN
+F 2 "" H 8900 4800 50  0000 C CNN
+F 3 "" H 8900 4800 50  0000 C CNN
+	1    8900 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR022
+U 1 1 58AF9299
+P 9700 3550
+F 0 "#PWR022" H 9700 3400 50  0001 C CNN
+F 1 "+3V3" H 9700 3690 50  0000 C CNN
+F 2 "" H 9700 3550 50  0000 C CNN
+F 3 "" H 9700 3550 50  0000 C CNN
+	1    9700 3550
+	1    0    0    -1  
+$EndComp
+Text Label 7550 3600 0    30   ~ 0
+BTLE_POWER_ENABLE
+NoConn ~ 9650 3800
+Text Label 8400 3900 0    30   ~ 0
+ESP32-RTS_BTLE-CTS
+Text Label 8400 3950 0    30   ~ 0
+ESP32-CTS_BTLE-RTS
+Text Label 8400 3800 0    30   ~ 0
+ESP32-TX_BTLE-RX
+Text Label 8400 3850 0    30   ~ 0
+ESP32-RX_BTLE-TX
+NoConn ~ 8950 3700
+NoConn ~ 8950 3750
+NoConn ~ 8950 4000
+NoConn ~ 8950 4050
+NoConn ~ 9650 4150
+NoConn ~ 9650 4200
+NoConn ~ 9650 4250
+NoConn ~ 9650 4300
+NoConn ~ 9650 4350
+NoConn ~ 9650 4450
+Text Notes 7350 3200 0    60   ~ 0
+BTLE Variant: Internal High-Power
+$Comp
+L C_0.1uF_10v_0603 C4
+U 1 1 58AFDCB7
+P 10050 3800
+F 0 "C4" V 10050 4000 60  0000 C CNN
+F 1 "C_0.1uF_10v_0603" H 10050 3650 60  0001 C CNN
+F 2 "ovrEngineered:C_0603" H 10300 3750 60  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf" H 10250 3450 60  0001 C CNN
+F 4 "Murata" H 9750 3550 60  0001 C CNN "Manufacturer"
+F 5 "GRM188R71C104KA01D" H 10500 3550 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 9800 3350 60  0001 C CNN "Supplier"
+F 7 "490-1532-1-ND" H 10500 3350 60  0001 C CNN "Supplier Part Num."
+F 8 "0.1uF" V 10150 4050 60  0000 C CNN "Comp. Value"
+	1    10050 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR023
+U 1 1 58AFDFB2
+P 10100 4000
+F 0 "#PWR023" H 10100 3750 50  0001 C CNN
+F 1 "GND" H 10100 3850 50  0000 C CNN
+F 2 "" H 10100 4000 50  0000 C CNN
+F 3 "" H 10100 4000 50  0000 C CNN
+	1    10100 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_DBG_PDI J3
+U 1 1 58EF998D
+P 3000 3900
+F 0 "J3" H 3000 3800 60  0000 C CNN
+F 1 "CONN_DBG_PDI" H 3000 3700 60  0000 C CNN
+F 2 "ovrEngineered:TC2030-IDC" H 3650 3750 60  0001 C CNN
+F 3 "http://www.tag-connect.com/Materials/TC2030-IDC.pdf" H 3200 3550 60  0001 C CNN
+F 4 "Tag Connect" H 2700 3650 60  0001 C CNN "Manufacturer"
+F 5 "TC2030-IDC" H 3450 3650 60  0001 C CNN "Man. Part Num."
+F 6 "DNP" H 2750 3450 60  0001 C CNN "Supplier"
+F 7 "DNP" H 3450 3450 60  0001 C CNN "Supplier Part Num."
+	1    3000 3900
+	-1   0    0    -1  
+$EndComp
+Text Label 3750 3700 2    30   ~ 0
+ESP32-RX_DBG-TX
+Text Label 3750 3750 2    30   ~ 0
+ESP32-TX_DBG-RX
+Text Label 3750 3550 2    30   ~ 0
+ESP32_EN
+Text Label 3750 3600 2    30   ~ 0
+ESP32_IO0
+$Comp
+L +3V3 #PWR024
+U 1 1 58EFA8B0
+P 3300 3450
+F 0 "#PWR024" H 3300 3300 50  0001 C CNN
+F 1 "+3V3" H 3300 3590 50  0000 C CNN
+F 2 "" H 3300 3450 50  0000 C CNN
+F 3 "" H 3300 3450 50  0000 C CNN
+	1    3300 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR025
+U 1 1 58EFAA27
+P 3300 3850
+F 0 "#PWR025" H 3300 3600 50  0001 C CNN
+F 1 "GND" H 3300 3700 50  0000 C CNN
+F 2 "" H 3300 3850 50  0000 C CNN
+F 3 "" H 3300 3850 50  0000 C CNN
+	1    3300 3850
+	1    0    0    -1  
+$EndComp
+Text Notes 2700 3200 0    60   ~ 0
+Programming Variant: Off-board
+Text Notes 3050 800  0    60   ~ 0
+Programming Variant: On-board
+$Comp
+L R_12K_1%_0603 R11
+U 1 1 58EFC3BB
+P 5850 3850
+F 0 "R11" V 5800 4050 60  0000 C CNN
+F 1 "R_12K_1%_0603" H 5850 3700 60  0001 C CNN
+F 2 "ovrEngineered:R_0603" H 5850 3850 60  0001 C CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 6050 3500 60  0001 C CNN
+F 4 "Vishay_Dale" H 5550 3600 60  0001 C CNN "Manufacturer"
+F 5 "CRCW060312K0FKEA" H 6300 3600 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 5600 3400 60  0001 C CNN "Supplier"
+F 7 "541-12.0KHCT-ND" H 6300 3400 60  0001 C CNN "Supplier Part Num."
+F 8 "12K" V 5900 4050 60  0000 C CNN "Comp. Value"
+	1    5850 3850
+	0    1    1    0   
+$EndComp
+Text Label 5450 4100 0    30   ~ 0
+ESP32_EN
+Text Label 5900 4100 0    30   ~ 0
+ESP32_IO0
+$Comp
+L +3V3 #PWR026
+U 1 1 58EFD58B
+P 5700 3600
+F 0 "#PWR026" H 5700 3450 50  0001 C CNN
+F 1 "+3V3" H 5700 3740 50  0000 C CNN
+F 2 "" H 5700 3600 50  0000 C CNN
+F 3 "" H 5700 3600 50  0000 C CNN
+	1    5700 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR027
+U 1 1 58A7C457
+P 7900 1750
+F 0 "#PWR027" H 7900 1600 50  0001 C CNN
+F 1 "+3V3" H 7900 1890 50  0000 C CNN
+F 2 "" H 7900 1750 50  0000 C CNN
+F 3 "" H 7900 1750 50  0000 C CNN
+	1    7900 1750
+	1    0    0    -1  
+$EndComp
+Text Notes 9650 850  0    30   ~ 0
++5V Switched Supply
+$Comp
+L CONN_1.27MM_5X2 J4
+U 1 1 58F09B08
+P 9600 5700
+F 0 "J4" H 9600 5650 60  0000 C CNN
+F 1 "CONN_1.27MM_5X2" H 9300 5550 60  0000 C CNN
+F 2 "ovrEngineered:20021111-00010T4LF" H 9600 5600 60  0001 C CNN
+F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/20021111.pdf" H 9800 5350 60  0001 C CNN
+F 4 "Amphenol" H 9300 5450 60  0001 C CNN "Manufacturer"
+F 5 "20021111-00010T4LF" H 10050 5450 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 9350 5250 60  0001 C CNN "Supplier"
+F 7 "609-3712-ND" H 10050 5250 60  0001 C CNN "Supplier Part Num."
+	1    9600 5700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR028
+U 1 1 58F09BDA
+P 9850 5400
+F 0 "#PWR028" H 9850 5250 50  0001 C CNN
+F 1 "+3V3" H 9850 5540 50  0000 C CNN
+F 2 "" H 9850 5400 50  0000 C CNN
+F 3 "" H 9850 5400 50  0000 C CNN
+	1    9850 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR029
+U 1 1 58F09C36
+P 9350 5700
+F 0 "#PWR029" H 9350 5450 50  0001 C CNN
+F 1 "GND" H 9350 5550 50  0000 C CNN
+F 2 "" H 9350 5700 50  0000 C CNN
+F 3 "" H 9350 5700 50  0000 C CNN
+	1    9350 5700
+	1    0    0    -1  
+$EndComp
+Text Label 9000 5500 0    30   ~ 0
+P2_2/PROG
+Text Label 10150 5500 2    30   ~ 0
+P2_1/PROG
+Text Label 9950 4550 2    30   ~ 0
+P2_2/PROG
+Text Label 9950 4500 2    30   ~ 0
+P2_1/PROG
+Text Label 8400 3600 0    30   ~ 0
+~BLE121_RESET
+$Comp
+L R_10K_1%_0603 R18
+U 1 1 58F0BA0C
+P 8200 3550
+F 0 "R18" H 8200 3500 60  0000 C CNN
+F 1 "R_10K_1%_0603" H 8200 3400 60  0001 C CNN
+F 2 "ovrEngineered:R_0603" H 8200 3550 60  0001 C CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 8400 3200 60  0001 C CNN
+F 4 "Vishay_Dale" H 7900 3300 60  0001 C CNN "Manufacturer"
+F 5 "CRCW060310K0FKEA" H 8650 3300 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 7950 3100 60  0001 C CNN "Supplier"
+F 7 "541-10.0KHCT-ND" H 8650 3100 60  0001 C CNN "Supplier Part Num."
+F 8 "10K" H 8200 3700 60  0000 C CNN "Comp. Value"
+	1    8200 3550
+	-1   0    0    1   
+$EndComp
+Text Label 9000 5600 0    30   ~ 0
+~BLE121_RESET
+NoConn ~ 9400 5550
+NoConn ~ 9400 5650
+NoConn ~ 9800 5650
+NoConn ~ 9800 5600
+NoConn ~ 9800 5550
+Text Notes 8800 7250 0    60   ~ 0
+BTLE Variants (mutually exclusive)\n - External\n - Internal High-Power\n - Internal
+Text Notes 8050 1800 0    30   ~ 0
+RS422 Level Shifter
+Text Notes 9800 1750 0    30   ~ 0
+RJ45 Jack
+Text Label 9950 3950 2    30   ~ 0
+SDA_BLE121
+Text Label 9950 4000 2    30   ~ 0
+SCL_BLE121
+Text Notes 9100 3400 0    30   ~ 0
+Bluetooth Module
+Text Notes 9200 5200 0    30   ~ 0
+Bluetooth Programming Header
+Text Notes 8150 5800 0    30   ~ 0
+I2C Thermometer
+Wire Notes Line
+	2550 3000 2550 8000
+Wire Notes Line
+	4400 4400 4400 3000
+Wire Notes Line
+	500  4400 4400 4400
+Connection ~ 5700 3650
+Wire Wire Line
+	5700 3600 5700 3650
+Wire Wire Line
+	5900 3650 5900 3700
+Wire Wire Line
+	5450 3650 5900 3650
+Wire Wire Line
+	5450 3700 5450 3650
+Wire Wire Line
+	5900 4000 5900 4100
+Wire Wire Line
+	5450 4000 5450 4100
+Wire Notes Line
+	7200 3000 7200 6750
+Wire Wire Line
+	9400 5600 9000 5600
+Wire Wire Line
+	9400 5500 9000 5500
+Wire Wire Line
+	7550 3600 8050 3600
+Wire Wire Line
+	9950 4550 9650 4550
+Wire Wire Line
+	9950 4500 9650 4500
+Wire Wire Line
+	9800 5500 10150 5500
+Wire Wire Line
+	9850 5450 9850 5400
+Wire Wire Line
+	9800 5450 9850 5450
+Wire Wire Line
+	9350 5450 9350 5700
+Wire Wire Line
+	9400 5450 9350 5450
+Connection ~ 8850 1250
+Wire Wire Line
+	8850 1450 8850 1250
+Wire Wire Line
+	8800 1450 8850 1450
+Connection ~ 7900 1800
+Wire Wire Line
+	8600 1800 7900 1800
+Wire Wire Line
+	8450 1450 8450 1500
+Wire Wire Line
+	8500 1450 8450 1450
+Wire Wire Line
+	9250 2850 9250 2700
+Wire Wire Line
+	9100 2800 9100 2700
+Wire Wire Line
+	9250 2350 9250 2400
+Wire Wire Line
+	9100 2300 9100 2400
+Wire Wire Line
+	9600 1850 9650 1850
+Wire Wire Line
+	9600 1050 9600 1850
+Wire Wire Line
+	9400 1050 9600 1050
+Wire Wire Line
+	8450 950  8500 950 
+Wire Wire Line
+	8450 850  8450 950 
+Wire Wire Line
+	8850 1100 8850 950 
 Wire Wire Line
 	1700 1900 1750 1900
 Wire Wire Line
@@ -489,1021 +1016,837 @@ Wire Wire Line
 Connection ~ 3900 1750
 Connection ~ 3900 1800
 Wire Wire Line
-	1600 3600 1550 3600
-Wire Wire Line
-	1550 3600 1550 3550
-Wire Wire Line
-	1450 3550 1600 3550
-Wire Wire Line
-	1450 3500 1450 3600
-Connection ~ 1550 3550
-Connection ~ 1450 3550
-Wire Wire Line
-	2250 3950 2750 3950
-Wire Wire Line
-	2250 3950 2250 3600
-Wire Wire Line
-	2250 3600 2200 3600
-Wire Wire Line
-	2350 3500 2350 3600
-Wire Wire Line
-	2200 3550 2750 3550
-Connection ~ 2350 3550
-Wire Wire Line
-	2350 3900 2350 4000
-Connection ~ 2350 3950
-Wire Wire Line
-	1450 3900 1450 4000
-Wire Wire Line
-	1350 4750 1350 6100
-Wire Wire Line
-	1350 6100 1450 6100
-Wire Wire Line
-	1500 5250 1350 5250
-Connection ~ 1350 5250
-Wire Wire Line
-	1500 4850 1350 4850
-Connection ~ 1350 4850
-Wire Wire Line
-	1650 5950 1700 5950
-Wire Wire Line
-	1650 4850 1700 4850
-Wire Wire Line
-	1650 5250 1700 5250
-Wire Wire Line
-	1650 6100 1700 6100
-Wire Wire Line
-	1650 6250 1700 6250
-Text Label 5650 3750 2    30   ~ 0
-ESP32_EN
-Text Label 3850 3700 0    30   ~ 0
-ESP32_IO0
-Text Label 5650 3850 2    30   ~ 0
-ESP32-TX_DBG-RX
-Text Label 5650 3900 2    30   ~ 0
-ESP32-RX_DBG-TX
-$Comp
-L R_12K_1%_0603 R10
-U 1 1 58A7B136
-P 4650 1350
-F 0 "R10" V 4600 1550 60  0000 C CNN
-F 1 "R_12K_1%_0603" H 4650 1200 60  0001 C CNN
-F 2 "ovrEngineered:R_0603" H 4650 1350 60  0001 C CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 4850 1000 60  0001 C CNN
-F 4 "Vishay_Dale" H 4350 1100 60  0001 C CNN "Manufacturer"
-F 5 "CRCW060312K0FKEA" H 5100 1100 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 4400 900 60  0001 C CNN "Supplier"
-F 7 "541-12.0KHCT-ND" H 5100 900 60  0001 C CNN "Supplier Part Num."
-F 8 "12K" V 4700 1550 60  0000 C CNN "Comp. Value"
-	1    4650 1350
-	0    1    1    0   
-$EndComp
-$Comp
-L +3V3 #PWR011
-U 1 1 58A7B367
-P 4850 1100
-F 0 "#PWR011" H 4850 950 50  0001 C CNN
-F 1 "+3V3" H 4850 1240 50  0000 C CNN
-F 2 "" H 4850 1100 50  0000 C CNN
-F 3 "" H 4850 1100 50  0000 C CNN
-	1    4850 1100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4700 1500 4700 1550
-Connection ~ 4700 1550
-$Comp
-L R_5.1K_1%_0603 R11
-U 1 1 58A7B53B
-P 4950 1350
-F 0 "R11" V 4900 1550 60  0000 C CNN
-F 1 "R_5.1K_1%_0603" H 4950 1200 60  0001 C CNN
-F 2 "ovrEngineered:R_0603" H 4950 1350 60  0001 C CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 5150 1000 60  0001 C CNN
-F 4 "Vishay_Dale" H 4650 1100 60  0001 C CNN "Manufacturer"
-F 5 "CRCW06035K10FKEA" H 5400 1100 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 4700 900 60  0001 C CNN "Supplier"
-F 7 "541-5.10KHCT-ND" H 5400 900 60  0001 C CNN "Supplier Part Num."
-F 8 "5.1K" V 5000 1550 60  0000 C CNN "Comp. Value"
-	1    4950 1350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4700 1200 4700 1150
-Wire Wire Line
-	4700 1150 5000 1150
-Wire Wire Line
-	5000 1150 5000 1200
-Wire Wire Line
-	4850 1100 4850 1150
-Connection ~ 4850 1150
-Wire Wire Line
-	4650 1550 5400 1550
-Wire Wire Line
-	5000 1500 5000 2050
-Wire Wire Line
-	4650 2050 5400 2050
-Connection ~ 5000 2050
-$Comp
-L +3V3 #PWR012
-U 1 1 58A78CCF
-P 5250 3650
-F 0 "#PWR012" H 5250 3500 50  0001 C CNN
-F 1 "+3V3" H 5250 3790 50  0000 C CNN
-F 2 "" H 5250 3650 50  0000 C CNN
-F 3 "" H 5250 3650 50  0000 C CNN
-	1    5250 3650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5200 3700 5250 3700
-Wire Wire Line
-	5250 3700 5250 3650
-Wire Wire Line
-	5200 3750 5650 3750
-Wire Wire Line
-	5200 3850 5650 3850
-Wire Wire Line
-	5200 3900 5650 3900
-Text Label 3850 4100 0    30   ~ 0
-ESP32-TX_BTLE-RX
-Text Label 3850 4150 0    30   ~ 0
-ESP32-RX_BTLE-TX
-$Comp
-L +3V3 #PWR013
-U 1 1 58A7A940
-P 8200 1350
-F 0 "#PWR013" H 8200 1200 50  0001 C CNN
-F 1 "+3V3" H 8200 1490 50  0000 C CNN
-F 2 "" H 8200 1350 50  0000 C CNN
-F 3 "" H 8200 1350 50  0000 C CNN
-	1    8200 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR014
-U 1 1 58A7AA76
-P 7550 1900
-F 0 "#PWR014" H 7550 1650 50  0001 C CNN
-F 1 "GND" H 7550 1750 50  0000 C CNN
-F 2 "" H 7550 1900 50  0000 C CNN
-F 3 "" H 7550 1900 50  0000 C CNN
-	1    7550 1900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8150 1500 9000 1500
-Wire Wire Line
-	9000 1550 8150 1550
-Wire Wire Line
-	8150 1650 9000 1650
-Wire Wire Line
-	9000 1700 8150 1700
-$Comp
-L GND #PWR015
-U 1 1 58A7AF99
-P 8950 2050
-F 0 "#PWR015" H 8950 1800 50  0001 C CNN
-F 1 "GND" H 8950 1900 50  0000 C CNN
-F 2 "" H 8950 2050 50  0000 C CNN
-F 3 "" H 8950 2050 50  0000 C CNN
-	1    8950 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9000 1950 8950 1950
-Wire Wire Line
-	8950 1400 8950 2050
-Wire Wire Line
-	9000 2000 8950 2000
-Connection ~ 8950 2000
-Text Label 3850 4350 0    30   ~ 0
-ESP32-CTS_BTLE-RTS
-Text Label 3850 4300 0    30   ~ 0
-ESP32-RTS_BTLE-CTS
-Wire Wire Line
-	7600 1800 7550 1800
-Wire Wire Line
-	7550 1800 7550 1900
-Wire Wire Line
-	7550 1850 7600 1850
-Connection ~ 7550 1850
-$Comp
-L R_10K_1%_0603 R13
-U 1 1 58A7BF22
-P 7050 1900
-F 0 "R13" V 7000 2100 60  0000 C CNN
-F 1 "R_10K_1%_0603" H 7050 1750 60  0001 C CNN
-F 2 "ovrEngineered:R_0603" H 7050 1900 60  0001 C CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 7250 1550 60  0001 C CNN
-F 4 "Vishay_Dale" H 6750 1650 60  0001 C CNN "Manufacturer"
-F 5 "CRCW060310K0FKEA" H 7500 1650 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 6800 1450 60  0001 C CNN "Supplier"
-F 7 "541-10.0KHCT-ND" H 7500 1450 60  0001 C CNN "Supplier Part Num."
-F 8 "10K" V 7100 2100 60  0000 C CNN "Comp. Value"
-	1    7050 1900
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6600 1650 7600 1650
-Wire Wire Line
-	7100 1650 7100 1750
-$Comp
-L GND #PWR016
-U 1 1 58A7C219
-P 7100 2100
-F 0 "#PWR016" H 7100 1850 50  0001 C CNN
-F 1 "GND" H 7100 1950 50  0000 C CNN
-F 2 "" H 7100 2100 50  0000 C CNN
-F 3 "" H 7100 2100 50  0000 C CNN
-	1    7100 2100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7100 2050 7100 2100
-$Comp
-L R_10K_1%_0603 R12
-U 1 1 58A7C2EB
-P 7050 1300
-F 0 "R12" V 7000 1500 60  0000 C CNN
-F 1 "R_10K_1%_0603" H 7050 1150 60  0001 C CNN
-F 2 "ovrEngineered:R_0603" H 7050 1300 60  0001 C CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 7250 950 60  0001 C CNN
-F 4 "Vishay_Dale" H 6750 1050 60  0001 C CNN "Manufacturer"
-F 5 "CRCW060310K0FKEA" H 7500 1050 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 6800 850 60  0001 C CNN "Supplier"
-F 7 "541-10.0KHCT-ND" H 7500 850 60  0001 C CNN "Supplier Part Num."
-F 8 "10K" V 7100 1500 60  0000 C CNN "Comp. Value"
-	1    7050 1300
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6600 1500 7600 1500
-Wire Wire Line
-	7100 1500 7100 1450
-Wire Wire Line
-	8150 1400 8200 1400
-Wire Wire Line
-	8200 1400 8200 1350
-$Comp
-L +3V3 #PWR017
-U 1 1 58A7C457
-P 7100 1100
-F 0 "#PWR017" H 7100 950 50  0001 C CNN
-F 1 "+3V3" H 7100 1240 50  0000 C CNN
-F 2 "" H 7100 1100 50  0000 C CNN
-F 3 "" H 7100 1100 50  0000 C CNN
-	1    7100 1100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7100 1100 7100 1150
-Text Label 6600 1550 0    30   ~ 0
-ESP32-TX_BTLE-RX
-Text Label 6600 1700 0    30   ~ 0
-ESP32-RX_BTLE-TX
-Wire Wire Line
-	7600 1550 6600 1550
-Wire Wire Line
-	6600 1700 7600 1700
-Text Label 6600 1500 0    30   ~ 0
-~422_RE
-Connection ~ 7100 1500
-Text Label 6600 1650 0    30   ~ 0
-422_DE
-Connection ~ 7100 1650
-Text Label 3850 3950 0    30   ~ 0
-422_DE
-Text Label 3850 3900 0    30   ~ 0
-~422_RE
-$Comp
-L GND #PWR018
-U 1 1 58A7D305
-P 4350 5050
-F 0 "#PWR018" H 4350 4800 50  0001 C CNN
-F 1 "GND" H 4350 4900 50  0000 C CNN
-F 2 "" H 4350 5050 50  0000 C CNN
-F 3 "" H 4350 5050 50  0000 C CNN
-	1    4350 5050
-	1    0    0    -1  
-$EndComp
-Text Label 1300 7250 0    30   ~ 0
-SCL
-Text Label 1300 7300 0    30   ~ 0
-SDA
-$Comp
-L +3V3 #PWR019
-U 1 1 58A7D4BB
-P 2100 7200
-F 0 "#PWR019" H 2100 7050 50  0001 C CNN
-F 1 "+3V3" H 2100 7340 50  0000 C CNN
-F 2 "" H 2100 7200 50  0000 C CNN
-F 3 "" H 2100 7200 50  0000 C CNN
-	1    2100 7200
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR020
-U 1 1 58A7D511
-P 1400 7450
-F 0 "#PWR020" H 1400 7200 50  0001 C CNN
-F 1 "GND" H 1400 7300 50  0000 C CNN
-F 2 "" H 1400 7450 50  0000 C CNN
-F 3 "" H 1400 7450 50  0000 C CNN
-	1    1400 7450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1450 7400 1400 7400
-Wire Wire Line
-	1400 7400 1400 7450
-Wire Wire Line
-	2050 7250 2100 7250
-Wire Wire Line
-	2100 7250 2100 7200
-Text Label 3850 4750 0    30   ~ 0
-SCL
-Text Label 3850 4700 0    30   ~ 0
-SDA
-Wire Wire Line
-	1450 7250 1300 7250
-Wire Wire Line
-	1300 7300 1450 7300
-Wire Wire Line
-	3850 3700 4400 3700
-Wire Wire Line
-	3850 4100 4400 4100
-Wire Wire Line
-	3850 4150 4400 4150
-Wire Wire Line
-	3850 4300 4400 4300
-Wire Wire Line
-	3850 4350 4400 4350
-Wire Wire Line
-	4400 4850 4350 4850
-Wire Wire Line
-	4350 4850 4350 5050
-Wire Wire Line
-	4400 4900 4350 4900
-Connection ~ 4350 4900
-Wire Wire Line
-	4400 4950 4350 4950
-Connection ~ 4350 4950
-Wire Wire Line
-	4400 5000 4350 5000
-Connection ~ 4350 5000
-Wire Wire Line
-	3850 4450 4400 4450
-Wire Wire Line
-	3850 3950 4400 3950
-$Comp
-L GND #PWR021
-U 1 1 58A7E742
-P 2350 4000
-F 0 "#PWR021" H 2350 3750 50  0001 C CNN
-F 1 "GND" H 2350 3850 50  0000 C CNN
-F 2 "" H 2350 4000 50  0000 C CNN
-F 3 "" H 2350 4000 50  0000 C CNN
-	1    2350 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR022
-U 1 1 58A7E79B
-P 2100 4900
-F 0 "#PWR022" H 2100 4650 50  0001 C CNN
-F 1 "GND" H 2100 4750 50  0000 C CNN
-F 2 "" H 2100 4900 50  0000 C CNN
-F 3 "" H 2100 4900 50  0000 C CNN
-	1    2100 4900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2000 4850 2100 4850
-Wire Wire Line
-	2100 4850 2100 4900
-Text Label 2400 5250 2    30   ~ 0
-LED_ERROR
-Text Label 2400 5950 2    30   ~ 0
-LED_RGB_R
-Text Label 2400 6100 2    30   ~ 0
-LED_RGB_G
-Text Label 2400 6250 2    30   ~ 0
-LED_RGB_B
-Wire Wire Line
-	2000 6250 2400 6250
-Wire Wire Line
-	2000 6100 2400 6100
-Wire Wire Line
-	2000 5950 2400 5950
-Wire Wire Line
-	2000 5250 2400 5250
-Text Label 3850 4000 0    30   ~ 0
-LED_ERROR
-Text Label 3850 4600 0    30   ~ 0
-LED_RGB_R
-Text Label 3850 4650 0    30   ~ 0
-LED_RGB_G
-Text Label 3850 4450 0    30   ~ 0
-LED_RGB_B
-Wire Wire Line
-	3850 4600 4400 4600
-Wire Wire Line
-	4400 4650 3850 4650
-Wire Wire Line
-	3850 4700 4400 4700
-Wire Wire Line
-	4400 4750 3850 4750
-$Comp
-L R_10K_1%_0603 R7
-U 1 1 58A802E4
-P 3200 7400
-F 0 "R7" V 3150 7600 60  0000 C CNN
-F 1 "R_10K_1%_0603" H 3200 7250 60  0001 C CNN
-F 2 "ovrEngineered:R_0603" H 3200 7400 60  0001 C CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 3400 7050 60  0001 C CNN
-F 4 "Vishay_Dale" H 2900 7150 60  0001 C CNN "Manufacturer"
-F 5 "CRCW060310K0FKEA" H 3650 7150 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 2950 6950 60  0001 C CNN "Supplier"
-F 7 "541-10.0KHCT-ND" H 3650 6950 60  0001 C CNN "Supplier Part Num."
-F 8 "10K" V 3250 7600 60  0000 C CNN "Comp. Value"
-	1    3200 7400
-	0    1    1    0   
-$EndComp
-$Comp
-L R_10K_1%_0603 R6
-U 1 1 58A804A5
-P 2900 7400
-F 0 "R6" V 2850 7600 60  0000 C CNN
-F 1 "R_10K_1%_0603" H 2900 7250 60  0001 C CNN
-F 2 "ovrEngineered:R_0603" H 2900 7400 60  0001 C CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 3100 7050 60  0001 C CNN
-F 4 "Vishay_Dale" H 2600 7150 60  0001 C CNN "Manufacturer"
-F 5 "CRCW060310K0FKEA" H 3350 7150 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 2650 6950 60  0001 C CNN "Supplier"
-F 7 "541-10.0KHCT-ND" H 3350 6950 60  0001 C CNN "Supplier Part Num."
-F 8 "10K" V 2950 7600 60  0000 C CNN "Comp. Value"
-	1    2900 7400
-	0    1    1    0   
-$EndComp
-Text Label 2950 7650 0    30   ~ 0
-SCL
-Text Label 3250 7650 0    30   ~ 0
-SDA
-$Comp
-L +3V3 #PWR023
-U 1 1 58A8068E
-P 3100 7150
-F 0 "#PWR023" H 3100 7000 50  0001 C CNN
-F 1 "+3V3" H 3100 7290 50  0000 C CNN
-F 2 "" H 3100 7150 50  0000 C CNN
-F 3 "" H 3100 7150 50  0000 C CNN
-	1    3100 7150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3100 7150 3100 7200
-Wire Wire Line
-	2950 7200 3250 7200
-Wire Wire Line
-	2950 7200 2950 7250
-Wire Wire Line
-	3250 7200 3250 7250
-Connection ~ 3100 7200
-Wire Wire Line
-	2950 7650 2950 7550
-Wire Wire Line
-	3250 7650 3250 7550
-$Comp
-L FET_NP_5A/3A_60V Q3
-U 1 1 58A80B60
-P 9350 4600
-F 0 "Q3" H 9300 5400 60  0000 C CNN
-F 1 "FET_NP_5A/3A_60V" H 10000 4950 60  0000 C CNN
-F 2 "ovrEngineered:SO-8" H 9350 4600 60  0001 C CNN
-F 3 "http://diodes.com/datasheets/DMC6040SSD.pdf" H 9450 4550 60  0001 C CNN
-F 4 "International Rectifier" H 8850 4650 60  0001 C CNN "Manufacturer"
-F 5 "DMC6040SSD-13" H 9800 4650 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 9150 4450 60  0001 C CNN "Supplier"
-F 7 "DMC6040SSD-13DICT-ND" H 9800 4450 60  0001 C CNN "Supplier Part Num."
-	1    9350 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR024
-U 1 1 58A80DC5
-P 9500 3850
-F 0 "#PWR024" H 9500 3700 50  0001 C CNN
-F 1 "+5V" H 9500 3990 50  0000 C CNN
-F 2 "" H 9500 3850 50  0000 C CNN
-F 3 "" H 9500 3850 50  0000 C CNN
-	1    9500 3850
-	1    0    0    -1  
-$EndComp
-Text Label 9850 4050 2    30   ~ 0
-+5V_SWITCHED
-Wire Wire Line
-	9450 4000 9500 4000
-Wire Wire Line
-	9500 4000 9500 4050
-Wire Wire Line
-	9450 4050 9850 4050
-Connection ~ 9500 4050
-$Comp
-L GND #PWR025
-U 1 1 58A817D5
-P 9500 4350
-F 0 "#PWR025" H 9500 4100 50  0001 C CNN
-F 1 "GND" H 9500 4200 50  0000 C CNN
-F 2 "" H 9500 4350 50  0000 C CNN
-F 3 "" H 9500 4350 50  0000 C CNN
-	1    9500 4350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9450 4300 9500 4300
-Wire Wire Line
-	9500 4300 9500 4350
-$Comp
-L R_10K_1%_0603 R15
-U 1 1 58A8219F
-P 9000 4450
-F 0 "R15" V 8950 4650 60  0000 C CNN
-F 1 "R_10K_1%_0603" H 9000 4300 60  0001 C CNN
-F 2 "ovrEngineered:R_0603" H 9000 4450 60  0001 C CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 9200 4100 60  0001 C CNN
-F 4 "Vishay_Dale" H 8700 4200 60  0001 C CNN "Manufacturer"
-F 5 "CRCW060310K0FKEA" H 9450 4200 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 8750 4000 60  0001 C CNN "Supplier"
-F 7 "541-10.0KHCT-ND" H 9450 4000 60  0001 C CNN "Supplier Part Num."
-F 8 "10K" V 9050 4650 60  0000 C CNN "Comp. Value"
-	1    9000 4450
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR026
-U 1 1 58A8247A
-P 9050 4650
-F 0 "#PWR026" H 9050 4400 50  0001 C CNN
-F 1 "GND" H 9050 4500 50  0000 C CNN
-F 2 "" H 9050 4650 50  0000 C CNN
-F 3 "" H 9050 4650 50  0000 C CNN
-	1    9050 4650
-	1    0    0    -1  
-$EndComp
-Text Label 8550 4250 0    30   ~ 0
-BTLE_POWER_ENABLE
-Wire Wire Line
-	8550 4250 9100 4250
-Wire Wire Line
-	9050 4300 9050 4250
-Connection ~ 9050 4250
-Wire Wire Line
-	9050 4600 9050 4650
-$Comp
-L R_10K_1%_0603 R14
-U 1 1 58A82B69
-P 8850 3750
-F 0 "R14" V 8800 3950 60  0000 C CNN
-F 1 "R_10K_1%_0603" H 8850 3600 60  0001 C CNN
-F 2 "ovrEngineered:R_0603" H 8850 3750 60  0001 C CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 9050 3400 60  0001 C CNN
-F 4 "Vishay_Dale" H 8550 3500 60  0001 C CNN "Manufacturer"
-F 5 "CRCW060310K0FKEA" H 9300 3500 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 8600 3300 60  0001 C CNN "Supplier"
-F 7 "541-10.0KHCT-ND" H 9300 3300 60  0001 C CNN "Supplier Part Num."
-F 8 "10K" V 8900 3950 60  0000 C CNN "Comp. Value"
-	1    8850 3750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8900 3900 8900 4100
-Wire Wire Line
-	8900 3950 9100 3950
-Wire Wire Line
-	9450 3900 9500 3900
-Wire Wire Line
-	9500 3900 9500 3850
-$Comp
-L +5V #PWR027
-U 1 1 58A82D65
-P 8900 3550
-F 0 "#PWR027" H 8900 3400 50  0001 C CNN
-F 1 "+5V" H 8900 3690 50  0000 C CNN
-F 2 "" H 8900 3550 50  0000 C CNN
-F 3 "" H 8900 3550 50  0000 C CNN
-	1    8900 3550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8900 3550 8900 3600
-Wire Wire Line
-	8900 4100 9500 4100
-Wire Wire Line
-	9500 4100 9500 4200
-Wire Wire Line
-	9500 4200 9450 4200
-Connection ~ 8900 3950
-Wire Wire Line
-	9450 4150 9500 4150
-Connection ~ 9500 4150
-Text Label 8650 1350 0    30   ~ 0
-+5V_SWITCHED
-Wire Wire Line
-	9000 1400 8950 1400
-Connection ~ 8950 1950
-Wire Wire Line
-	9000 1350 8650 1350
-Text Label 3850 3750 0    30   ~ 0
-BTLE_POWER_ENABLE
-Text Label 8050 2750 0    30   ~ 0
-ESP32-RTS_BTLE-CTS
-Text Label 8050 2800 0    30   ~ 0
-ESP32-CTS_BTLE-RTS
-$Comp
-L R_0_0603 R17
-U 1 1 58A84C7E
-P 8700 2500
-F 0 "R17" V 8650 2700 60  0000 C CNN
-F 1 "R_0_0603" H 8700 2350 60  0001 C CNN
-F 2 "ovrEngineered:R_0603" H 8700 2500 60  0001 C CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 8900 2150 60  0001 C CNN
-F 4 "Vishay_Dale" H 8400 2250 60  0001 C CNN "Manufacturer"
-F 5 "CRCW06030000Z0EA" H 9150 2250 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 8450 2050 60  0001 C CNN "Supplier"
-F 7 "541-0.0GCT-ND" H 9150 2050 60  0001 C CNN "Supplier Part Num."
-F 8 "0" V 8750 2700 60  0000 C CNN "Comp. Value"
-	1    8700 2500
-	0    1    1    0   
-$EndComp
-$Comp
-L R_0_0603 R16
-U 1 1 58A85186
-P 8650 2500
-F 0 "R16" V 8600 2700 60  0000 C CNN
-F 1 "R_0_0603" H 8650 2350 60  0001 C CNN
-F 2 "ovrEngineered:R_0603" H 8650 2500 60  0001 C CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 8850 2150 60  0001 C CNN
-F 4 "Vishay_Dale" H 8350 2250 60  0001 C CNN "Manufacturer"
-F 5 "CRCW06030000Z0EA" H 9100 2250 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 8400 2050 60  0001 C CNN "Supplier"
-F 7 "541-0.0GCT-ND" H 9100 2050 60  0001 C CNN "Supplier Part Num."
-F 8 "0" V 8700 2700 60  0000 C CNN "Comp. Value"
-	1    8650 2500
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	9000 1800 8600 1800
-Wire Wire Line
-	8600 1800 8600 2350
-Wire Wire Line
-	9000 1850 8750 1850
-Wire Wire Line
-	8750 1850 8750 2350
-Wire Wire Line
-	8050 2750 8600 2750
-Wire Wire Line
-	8600 2750 8600 2650
-Wire Wire Line
-	8050 2800 8750 2800
-Wire Wire Line
-	8750 2800 8750 2650
-NoConn ~ 5200 4000
-NoConn ~ 5200 4050
-NoConn ~ 5200 4150
-NoConn ~ 5200 4200
-NoConn ~ 5200 4250
-NoConn ~ 5200 4300
-NoConn ~ 5200 4350
-NoConn ~ 5200 4400
-NoConn ~ 4400 3850
-NoConn ~ 4400 4050
-NoConn ~ 4400 4200
-NoConn ~ 4400 4250
-NoConn ~ 4400 4400
+	1000 3600 950  3600
+Wire Wire Line
+	950  3600 950  3550
+Wire Wire Line
+	850  3550 1000 3550
+Wire Wire Line
+	850  3500 850  3600
+Connection ~ 950  3550
+Connection ~ 850  3550
+Wire Wire Line
+	1650 3950 2150 3950
+Wire Wire Line
+	1650 3950 1650 3600
+Wire Wire Line
+	1650 3600 1600 3600
+Wire Wire Line
+	1750 3500 1750 3600
+Wire Wire Line
+	1600 3550 2150 3550
+Connection ~ 1750 3550
+Wire Wire Line
+	1750 3900 1750 4000
+Connection ~ 1750 3950
+Wire Wire Line
+	850  3900 850  4000
+Wire Wire Line
+	4750 5350 4800 5350
+Wire Wire Line
+	4800 5350 4800 5300
+Wire Wire Line
+	4750 5400 5200 5400
+Wire Wire Line
+	4750 5500 5200 5500
+Wire Wire Line
+	4750 5550 5200 5550
+Wire Wire Line
+	8550 2000 9650 2000
+Wire Wire Line
+	8550 2050 9650 2050
+Wire Wire Line
+	8550 2150 9650 2150
+Wire Wire Line
+	8550 2200 9650 2200
+Wire Wire Line
+	9650 2450 9600 2450
+Wire Wire Line
+	9600 1900 9600 2550
+Wire Wire Line
+	9650 2500 9600 2500
+Connection ~ 9600 2500
+Wire Wire Line
+	8000 2300 7950 2300
+Wire Wire Line
+	7950 2000 7950 2400
+Wire Wire Line
+	7950 2350 8000 2350
+Connection ~ 7950 2350
+Wire Wire Line
+	8600 1900 8550 1900
+Wire Wire Line
+	8600 1800 8600 1900
+Wire Wire Line
+	7600 5850 7550 5850
+Wire Wire Line
+	7550 5850 7550 5900
+Wire Wire Line
+	8200 5700 8250 5700
+Wire Wire Line
+	8250 5700 8250 5650
+Wire Wire Line
+	7300 5700 7600 5700
+Wire Wire Line
+	7300 5750 7600 5750
+Wire Wire Line
+	3400 5350 3950 5350
+Wire Wire Line
+	3400 5750 3950 5750
+Wire Wire Line
+	3400 5800 3950 5800
+Wire Wire Line
+	3950 6500 3900 6500
+Wire Wire Line
+	3900 6500 3900 6700
+Wire Wire Line
+	3950 6550 3900 6550
+Connection ~ 3900 6550
+Wire Wire Line
+	3950 6600 3900 6600
+Connection ~ 3900 6600
+Wire Wire Line
+	3950 6650 3900 6650
+Connection ~ 3900 6650
+Wire Wire Line
+	3400 6350 3950 6350
+Wire Wire Line
+	3950 6400 3400 6400
+Wire Wire Line
+	9400 1000 9450 1000
+Wire Wire Line
+	9450 1000 9450 1050
+Connection ~ 9450 1050
+Wire Wire Line
+	9400 1300 9450 1300
+Wire Wire Line
+	9450 1300 9450 1350
+Wire Wire Line
+	7350 1250 9050 1250
+Wire Wire Line
+	8800 950  9050 950 
+Wire Wire Line
+	9400 900  9450 900 
+Wire Wire Line
+	9450 900  9450 850 
+Wire Wire Line
+	8850 1100 9450 1100
+Wire Wire Line
+	9450 1100 9450 1200
+Wire Wire Line
+	9450 1200 9400 1200
+Connection ~ 8850 950 
+Wire Wire Line
+	9400 1150 9450 1150
+Connection ~ 9450 1150
+Wire Wire Line
+	9650 1900 9600 1900
+Connection ~ 9600 2450
+Wire Wire Line
+	9100 2300 9650 2300
+Wire Wire Line
+	9250 2350 9650 2350
+Wire Wire Line
+	7350 2800 9100 2800
+Wire Wire Line
+	7350 2850 9250 2850
 Wire Notes Line
 	10500 3000 500  3000
 Wire Notes Line
 	6000 500  6000 3000
-Wire Notes Line
-	3700 3000 3700 8000
-Wire Notes Line
-	3700 4500 500  4500
-Wire Notes Line
-	500  4500 500  4550
-Text Notes 1300 800  0    60   ~ 0
-USB Power and Debug UART
-Text Notes 4050 850  0    60   ~ 0
-Auto-reset (programming)
-Text Notes 7450 850  0    60   ~ 0
-RS422 converter and RJ45 to External BTLE
-Text Notes 1450 3200 0    60   ~ 0
-Voltage Regulation
-Text Notes 2500 4700 0    60   ~ 0
-LED Indicators
-Text Notes 1400 6850 0    60   ~ 0
-I2C Thermometer
-Text Notes 4500 3350 0    60   ~ 0
-WiFi Module\nLow-Power BTLE
-Text Notes 8700 3200 0    60   ~ 0
-Power Control to External BTLE
-$Comp
-L BJT_NPN_1.5A_25V Q1
-U 1 1 58A880A0
-P 4550 1650
-F 0 "Q1" H 4500 2150 60  0000 C CNN
-F 1 "BJT_NPN_1.5A_25V" H 4550 2250 60  0000 C CNN
-F 2 "ovrEngineered:SOT-23-3" H 5300 1800 60  0001 C CNN
-F 3 "http://www.mccsemi.com/up_pdf/MMSS8050(SOT-23).pdf" H 4650 1600 60  0001 C CNN
-F 4 "Micro Commercial Co" H 4100 1700 60  0001 C CNN "Manufacturer"
-F 5 "MMSS8050-H-TP" H 5000 1700 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 4350 1500 60  0001 C CNN "Supplier"
-F 7 "MMSS8050-H-TPMSCT-ND" H 5000 1500 60  0001 C CNN "Supplier Part Num."
-	1    4550 1650
-	1    0    0    1   
-$EndComp
-$Comp
-L BJT_NPN_1.5A_25V Q2
-U 1 1 58A88137
-P 4550 1950
-F 0 "Q2" H 4500 2450 60  0000 C CNN
-F 1 "BJT_NPN_1.5A_25V" H 4550 2100 60  0001 C CNN
-F 2 "ovrEngineered:SOT-23-3" H 5300 2100 60  0001 C CNN
-F 3 "http://www.mccsemi.com/up_pdf/MMSS8050(SOT-23).pdf" H 4650 1900 60  0001 C CNN
-F 4 "Micro Commercial Co" H 4100 2000 60  0001 C CNN "Manufacturer"
-F 5 "MMSS8050-H-TP" H 5000 2000 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 4350 1800 60  0001 C CNN "Supplier"
-F 7 "MMSS8050-H-TPMSCT-ND" H 5000 1800 60  0001 C CNN "Supplier Part Num."
-	1    4550 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L ESP32-WROOM U4
-U 1 1 58A897F9
-P 4750 4350
-F 0 "U4" H 4600 5100 60  0000 C CNN
-F 1 "ESP32-WROOM" H 4800 3600 60  0000 C CNN
-F 2 "ovrEngineered:ESP32-WROOM" H 5100 5700 60  0001 C CNN
-F 3 "https://espressif.com/sites/default/files/documentation/esp_wroom_32_datasheet_en.pdf" H 5200 3100 60  0001 C CNN
-F 4 "EspressIf" H 4700 3200 60  0001 C CNN "Manufacturer"
-F 5 "esp-wroom-32" H 4800 3300 60  0001 C CNN "Man. Part Num."
-F 6 "Grid Connect" H 4900 3400 60  0001 C CNN "Supplier"
-F 7 "GC-ESP-WROOM-32" H 5000 3500 60  0001 C CNN "Supplier Part Num."
-	1    4750 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED_BLUE_0603 D4
-U 1 1 58A8CDCE
-P 1600 5700
-F 0 "D4" H 1600 5650 60  0000 C CNN
-F 1 "LED_BLUE_0603" H 1600 5550 60  0001 C CNN
-F 2 "ovrEngineered:D_0603" H 1900 5650 60  0001 C CNN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2007-0094/S_110_LTST-C193KGKT-5A.pdf" H 1800 5350 60  0001 C CNN
-F 4 "Lite-On Inc" H 1300 5450 60  0001 C CNN "Manufacturer"
-F 5 "LTST-C193TBKT-5A" H 2050 5450 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 1350 5250 60  0001 C CNN "Supplier"
-F 7 "160-1827-1-ND" H 2050 5250 60  0001 C CNN "Supplier Part Num."
-F 8 "Blue" H 1600 5950 60  0000 C CNN "Comp. Value"
-	1    1600 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_402_1%_0603 R18
-U 1 1 58A8CFBA
-P 1850 5700
-F 0 "R18" H 2000 5650 60  0000 C CNN
-F 1 "R_402_1%_0603" H 1850 5550 60  0001 C CNN
-F 2 "ovrEngineered:R_0603" H 1850 5700 60  0001 C CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 2050 5350 60  0001 C CNN
-F 4 "Vishay_Dale" H 1550 5450 60  0001 C CNN "Manufacturer"
-F 5 "CRCW0603402RFKEA" H 2300 5450 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 1600 5250 60  0001 C CNN "Supplier"
-F 7 "541-402HCT-ND" H 2300 5250 60  0001 C CNN "Supplier Part Num."
-F 8 "402" H 1800 5650 60  0000 C CNN "Comp. Value"
-	1    1850 5700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	1500 5650 1350 5650
-Connection ~ 1350 5650
-Text Label 2400 5650 2    30   ~ 0
-LED_BTLE_ACT
+	2150 3550 2150 3600
 Wire Wire Line
-	2000 5650 2400 5650
-Wire Notes Line
-	3700 6650 500  6650
-Wire Wire Line
-	1700 5650 1650 5650
-Text Label 3850 4550 0    30   ~ 0
-LED_BTLE_ACT
-Wire Wire Line
-	4400 4550 3850 4550
-NoConn ~ 4400 3800
-Wire Wire Line
-	4400 3750 3850 3750
-Wire Wire Line
-	3850 3900 4400 3900
-NoConn ~ 4400 4500
-Wire Wire Line
-	4400 4000 3850 4000
-$Comp
-L C_10uF_10v_0805 C3
-U 1 1 58A98978
-P 2800 3750
-F 0 "C3" V 2750 3650 60  0000 C CNN
-F 1 "C_10uF_10v_0805" H 2800 3600 60  0001 C CNN
-F 2 "ovrEngineered:C_0805" H 3050 3700 60  0001 C CNN
-F 3 "http://psearch.murata.com/capacitor/product/GRM21BR71A106KE51%23.pdf" H 3000 3400 60  0001 C CNN
-F 4 "Murata" H 2500 3500 60  0001 C CNN "Manufacturer"
-F 5 "GRM21BR71A106KE51L" H 3250 3500 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 2550 3300 60  0001 C CNN "Supplier"
-F 7 "490-3905-1-ND" H 3250 3300 60  0001 C CNN "Supplier Part Num."
-F 8 "10uF" V 2850 3600 60  0000 C CNN "Comp. Value"
-	1    2800 3750
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	2750 3550 2750 3600
-Wire Wire Line
-	2750 3950 2750 3900
-$Comp
-L USB_MICROB_RA_LONG J1
-U 1 1 58A9DC36
-P 1550 2200
-F 0 "J1" H 1950 2650 60  0000 C CNN
-F 1 "USB_MICROB_RA_LONG" H 2050 2200 60  0000 C CNN
-F 2 "ovrEngineered:UJ2-MIBH-4-SMT" H 1550 2450 60  0001 C CNN
-F 3 "http://www.cui.com/product/resource/digikeypdf/uj2-mibh-4-smt.pdf" H 1750 1850 60  0001 C CNN
-F 4 "CUI, Inc" H 1250 1950 60  0001 C CNN "Manufacturer"
-F 5 "UJ2-MIBH-4-SMT" H 2000 1950 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 1300 1750 60  0001 C CNN "Supplier"
-F 7 "102-4006-1-ND" H 2000 1750 60  0001 C CNN "Supplier Part Num."
-	1    1550 2200
-	-1   0    0    -1  
-$EndComp
+	2150 3950 2150 3900
 Wire Wire Line
 	1700 2050 1750 2050
 Connection ~ 1750 2050
 Wire Wire Line
 	1700 2100 1750 2100
 Connection ~ 1750 2100
-$Comp
-L BLUEGIGA_BLE121 U6
-U 1 1 58AF82C7
-P 7250 5100
-F 0 "U6" H 7550 6350 60  0000 C CNN
-F 1 "BLUEGIGA_BLE121" H 7250 5250 60  0000 C CNN
-F 2 "ovrEngineered:BLE121" H 7450 5150 60  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/BlueGiga%20PDFs/BLE121LR_V1.2.pdf" H 7350 5050 60  0001 C CNN
-F 4 "BlueGiga" H 7000 5150 60  0001 C CNN "Manufacturer"
-F 5 "BLE121LR-A-M256K" H 8300 5200 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 7050 4950 60  0001 C CNN "Supplier"
-F 7 "1446-1039-1-ND" H 7700 4950 60  0001 C CNN "Supplier Part Num."
-	1    7250 5100
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR028
-U 1 1 58AF837C
-P 6650 4900
-F 0 "#PWR028" H 6650 4650 50  0001 C CNN
-F 1 "GND" H 6650 4750 50  0000 C CNN
-F 2 "" H 6650 4900 50  0000 C CNN
-F 3 "" H 6650 4900 50  0000 C CNN
-	1    6650 4900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	6700 4250 6650 4250
+	8950 4150 8900 4150
 Wire Wire Line
-	6650 4250 6650 4900
+	8900 4150 8900 4800
 Wire Wire Line
-	6700 4300 6650 4300
-Connection ~ 6650 4300
+	8950 4200 8900 4200
+Connection ~ 8900 4200
 Wire Wire Line
-	6700 4350 6650 4350
-Connection ~ 6650 4350
+	8950 4250 8900 4250
+Connection ~ 8900 4250
 Wire Wire Line
-	6700 4400 6650 4400
-Connection ~ 6650 4400
+	8950 4300 8900 4300
+Connection ~ 8900 4300
 Wire Wire Line
-	6700 4450 6650 4450
-Connection ~ 6650 4450
+	8950 4350 8900 4350
+Connection ~ 8900 4350
 Wire Wire Line
-	6700 4500 6650 4500
-Connection ~ 6650 4500
+	8950 4400 8900 4400
+Connection ~ 8900 4400
 Wire Wire Line
-	6700 4550 6650 4550
-Connection ~ 6650 4550
+	8950 4450 8900 4450
+Connection ~ 8900 4450
 Wire Wire Line
-	6700 4600 6650 4600
-Connection ~ 6650 4600
+	8950 4500 8900 4500
+Connection ~ 8900 4500
 Wire Wire Line
-	6700 4650 6650 4650
-Connection ~ 6650 4650
+	8950 4550 8900 4550
+Connection ~ 8900 4550
 Wire Wire Line
-	6700 4700 6650 4700
-Connection ~ 6650 4700
+	8950 4600 8900 4600
+Connection ~ 8900 4600
 Wire Wire Line
-	6700 4750 6650 4750
-Connection ~ 6650 4750
+	8950 4650 8900 4650
+Connection ~ 8900 4650
 Wire Wire Line
-	6700 4800 6650 4800
-Connection ~ 6650 4800
+	8950 4700 8900 4700
+Connection ~ 8900 4700
 Wire Wire Line
-	6700 4850 6650 4850
-Connection ~ 6650 4850
-$Comp
-L +3V3 #PWR029
-U 1 1 58AF9299
-P 7450 3650
-F 0 "#PWR029" H 7450 3500 50  0001 C CNN
-F 1 "+3V3" H 7450 3790 50  0000 C CNN
-F 2 "" H 7450 3650 50  0000 C CNN
-F 3 "" H 7450 3650 50  0000 C CNN
-	1    7450 3650
-	1    0    0    -1  
-$EndComp
+	8950 4750 8900 4750
+Connection ~ 8900 4750
 Wire Wire Line
-	7400 3750 7450 3750
+	9650 3650 9700 3650
 Wire Wire Line
-	7450 3750 7450 3650
+	9700 3650 9700 3550
 Wire Wire Line
-	7400 3700 7850 3700
-Connection ~ 7450 3700
-Text Label 6150 3700 0    30   ~ 0
-BTLE_POWER_ENABLE
+	9650 3600 10100 3600
+Connection ~ 9700 3600
 Wire Wire Line
-	6150 3700 6700 3700
-NoConn ~ 7400 3900
-Text Label 6150 4000 0    30   ~ 0
-ESP32-RTS_BTLE-CTS
-Text Label 6150 4050 0    30   ~ 0
-ESP32-CTS_BTLE-RTS
-Text Label 6150 3900 0    30   ~ 0
-ESP32-TX_BTLE-RX
-Text Label 6150 3950 0    30   ~ 0
-ESP32-RX_BTLE-TX
+	8350 3600 8950 3600
 Wire Wire Line
-	6150 3900 6700 3900
+	8400 3800 8950 3800
 Wire Wire Line
-	6150 3950 6700 3950
+	8400 3850 8950 3850
 Wire Wire Line
-	6150 4000 6700 4000
+	8400 3900 8950 3900
 Wire Wire Line
-	6150 4050 6700 4050
-NoConn ~ 6700 3800
-NoConn ~ 6700 3850
-NoConn ~ 6700 4100
-NoConn ~ 6700 4150
-NoConn ~ 7400 4050
-NoConn ~ 7400 4100
-NoConn ~ 7400 4250
-NoConn ~ 7400 4300
-NoConn ~ 7400 4350
-NoConn ~ 7400 4400
-NoConn ~ 7400 4450
-NoConn ~ 7400 4550
-NoConn ~ 7400 4600
-NoConn ~ 7400 4650
-Text Notes 6650 3350 0    60   ~ 0
-High-Power BTLE
+	8400 3950 8950 3950
+Wire Wire Line
+	10100 3600 10100 3650
+Wire Wire Line
+	10100 3950 10100 4000
+Wire Wire Line
+	3250 3500 3300 3500
+Wire Wire Line
+	3300 3500 3300 3450
+Wire Wire Line
+	3250 3550 3750 3550
+Wire Wire Line
+	3750 3600 3250 3600
+Wire Wire Line
+	3250 3700 3750 3700
+Wire Wire Line
+	3750 3750 3250 3750
+Wire Wire Line
+	3250 3800 3300 3800
+Wire Wire Line
+	3300 3800 3300 3850
+Wire Wire Line
+	4650 1550 5000 1550
+Wire Wire Line
+	4650 2050 5000 2050
 Wire Notes Line
-	5900 3000 5900 6800
-Wire Notes Line
-	5900 6800 6300 6800
-Wire Notes Line
-	8200 3000 8200 6750
+	2100 450  2100 3000
+Wire Wire Line
+	8000 2000 7950 2000
+Connection ~ 7950 2300
+Wire Wire Line
+	7900 2150 8000 2150
+Wire Wire Line
+	7900 1750 7900 2150
+Wire Wire Line
+	8000 2050 7350 2050
+Wire Wire Line
+	7350 2200 8000 2200
 $Comp
-L C_0.1uF_10v_0603 C4
-U 1 1 58AFDCB7
-P 7800 3900
-F 0 "C4" V 7800 4100 60  0000 C CNN
-F 1 "C_0.1uF_10v_0603" H 7800 3750 60  0001 C CNN
-F 2 "ovrEngineered:C_0603" H 8050 3850 60  0001 C CNN
-F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf" H 8000 3550 60  0001 C CNN
-F 4 "Murata" H 7500 3650 60  0001 C CNN "Manufacturer"
-F 5 "GRM188R71C104KA01D" H 8250 3650 60  0001 C CNN "Man. Part Num."
-F 6 "Digi-Key" H 7550 3450 60  0001 C CNN "Supplier"
-F 7 "490-1532-1-ND" H 8250 3450 60  0001 C CNN "Supplier Part Num."
-F 8 "0.1uF" V 7900 4150 60  0000 C CNN "Comp. Value"
-	1    7800 3900
+L R_10K_1%_0603 R12
+U 1 1 58F1E02E
+P 7550 5150
+F 0 "R12" V 7500 5350 60  0000 C CNN
+F 1 "R_10K_1%_0603" H 7550 5000 60  0001 C CNN
+F 2 "ovrEngineered:R_0603" H 7550 5150 60  0001 C CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 7750 4800 60  0001 C CNN
+F 4 "Vishay_Dale" H 7250 4900 60  0001 C CNN "Manufacturer"
+F 5 "CRCW060310K0FKEA" H 8000 4900 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 7300 4700 60  0001 C CNN "Supplier"
+F 7 "541-10.0KHCT-ND" H 8000 4700 60  0001 C CNN "Supplier Part Num."
+F 8 "10K" V 7600 5350 60  0000 C CNN "Comp. Value"
+	1    7550 5150
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR030
-U 1 1 58AFDFB2
-P 7850 4100
-F 0 "#PWR030" H 7850 3850 50  0001 C CNN
-F 1 "GND" H 7850 3950 50  0000 C CNN
-F 2 "" H 7850 4100 50  0000 C CNN
-F 3 "" H 7850 4100 50  0000 C CNN
-	1    7850 4100
+L R_10K_1%_0603 R13
+U 1 1 58F1E0B9
+P 8000 5150
+F 0 "R13" V 7950 5350 60  0000 C CNN
+F 1 "R_10K_1%_0603" H 8000 5000 60  0001 C CNN
+F 2 "ovrEngineered:R_0603" H 8000 5150 60  0001 C CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 8200 4800 60  0001 C CNN
+F 4 "Vishay_Dale" H 7700 4900 60  0001 C CNN "Manufacturer"
+F 5 "CRCW060310K0FKEA" H 8450 4900 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 7750 4700 60  0001 C CNN "Supplier"
+F 7 "541-10.0KHCT-ND" H 8450 4700 60  0001 C CNN "Supplier Part Num."
+F 8 "10K" V 8050 5350 60  0000 C CNN "Comp. Value"
+	1    8000 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L +3V3 #PWR030
+U 1 1 58F1E288
+P 7850 4900
+F 0 "#PWR030" H 7850 4750 50  0001 C CNN
+F 1 "+3V3" H 7850 5040 50  0000 C CNN
+F 2 "" H 7850 4900 50  0000 C CNN
+F 3 "" H 7850 4900 50  0000 C CNN
+	1    7850 4900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7850 3700 7850 3750
+	7600 5000 7600 4950
 Wire Wire Line
-	7850 4050 7850 4100
+	7600 4950 8050 4950
+Wire Wire Line
+	8050 4950 8050 5000
+Wire Wire Line
+	7850 4900 7850 4950
+Connection ~ 7850 4950
+Wire Wire Line
+	9650 3950 9950 3950
+Wire Wire Line
+	9950 4000 9650 4000
+Text Label 7600 5400 0    30   ~ 0
+SDA_BLE121
+Text Label 8050 5400 0    30   ~ 0
+SCL_BLE121
+Wire Wire Line
+	7600 5300 7600 5400
+Wire Wire Line
+	8050 5300 8050 5400
+$Comp
+L R_0_0603 R19
+U 1 1 58F22206
+P 9650 6450
+F 0 "R19" H 9600 6600 60  0000 C CNN
+F 1 "R_0_0603" H 9650 6300 60  0001 C CNN
+F 2 "ovrEngineered:R_0603" H 9650 6450 60  0001 C CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 9850 6100 60  0001 C CNN
+F 4 "Vishay_Dale" H 9350 6200 60  0001 C CNN "Manufacturer"
+F 5 "CRCW06030000Z0EA" H 10100 6200 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 9400 6000 60  0001 C CNN "Supplier"
+F 7 "541-0.0GCT-ND" H 10100 6000 60  0001 C CNN "Supplier Part Num."
+F 8 "0" H 9750 6600 60  0000 C CNN "Comp. Value"
+	1    9650 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_0_0603 R20
+U 1 1 58F22495
+P 9650 6700
+F 0 "R20" H 9600 6850 60  0000 C CNN
+F 1 "R_0_0603" H 9650 6550 60  0001 C CNN
+F 2 "ovrEngineered:R_0603" H 9650 6700 60  0001 C CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 9850 6350 60  0001 C CNN
+F 4 "Vishay_Dale" H 9350 6450 60  0001 C CNN "Manufacturer"
+F 5 "CRCW06030000Z0EA" H 10100 6450 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 9400 6250 60  0001 C CNN "Supplier"
+F 7 "541-0.0GCT-ND" H 10100 6250 60  0001 C CNN "Supplier Part Num."
+F 8 "0" H 9750 6850 60  0000 C CNN "Comp. Value"
+	1    9650 6700
+	1    0    0    -1  
+$EndComp
+Text Label 9200 6400 0    30   ~ 0
+SDA_ESP32
+Text Label 9200 6650 0    30   ~ 0
+SCL_ESP32
+Text Label 10150 6400 2    30   ~ 0
+SDA_BLE121
+Text Label 10150 6650 2    30   ~ 0
+SCL_BLE121
+Wire Wire Line
+	9200 6400 9500 6400
+Wire Wire Line
+	9200 6650 9500 6650
+Wire Wire Line
+	9800 6400 10150 6400
+Wire Wire Line
+	9800 6650 10150 6650
+Text Notes 8800 6200 0    60   ~ 0
+BTLE Variant: Internal
+Text Label 7300 5750 0    30   ~ 0
+SDA_BLE121
+Text Label 7300 5700 0    30   ~ 0
+SCL_BLE121
+Text Notes 6450 7150 0    60   ~ 0
+Programming Variants (mutually exclusive)\n - On-board\n - Off-board
+Text Notes 5500 3350 0    30   ~ 0
+Programming Pull-ups
+$Comp
+L LITEON_LTR-329ALS U7
+U 1 1 58F1130F
+P 7900 6750
+F 0 "U7" H 7800 7300 60  0000 C CNN
+F 1 "LITEON_LTR-329ALS" H 8200 6950 60  0000 C CNN
+F 2 "ovrEngineered:LITEON_LTR-329ALS" H 8100 6800 60  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS86-2014-0006/S_110_LTR-329ALS-01_DS_V1.pdf" H 8000 6700 60  0001 C CNN
+F 4 "Lite-On" H 7650 6800 60  0001 C CNN "Manufacturer"
+F 5 "LTR-329ALS-01" H 8950 6850 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 7700 6600 60  0001 C CNN "Supplier"
+F 7 "160-2160-1-ND" H 8350 6600 60  0001 C CNN "Supplier Part Num."
+	1    7900 6750
+	1    0    0    -1  
+$EndComp
+Text Label 7300 6300 0    30   ~ 0
+SCL_BLE121
+Text Label 7300 6350 0    30   ~ 0
+SDA_BLE121
+Wire Wire Line
+	7300 6300 7600 6300
+Wire Wire Line
+	7300 6350 7600 6350
+$Comp
+L GND #PWR031
+U 1 1 58F117DD
+P 7550 6500
+F 0 "#PWR031" H 7550 6250 50  0001 C CNN
+F 1 "GND" H 7550 6350 50  0000 C CNN
+F 2 "" H 7550 6500 50  0000 C CNN
+F 3 "" H 7550 6500 50  0000 C CNN
+	1    7550 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR032
+U 1 1 58F118C6
+P 8250 6250
+F 0 "#PWR032" H 8250 6100 50  0001 C CNN
+F 1 "+3V3" H 8250 6390 50  0000 C CNN
+F 2 "" H 8250 6250 50  0000 C CNN
+F 3 "" H 8250 6250 50  0000 C CNN
+	1    8250 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 6300 8250 6300
+Wire Wire Line
+	8250 6300 8250 6250
+Wire Wire Line
+	7600 6450 7550 6450
+Wire Wire Line
+	7550 6450 7550 6500
+Text Notes 7250 4650 0    60   ~ 0
+BTLE Variant: \n  Internal\n  Internal High-Power
+Wire Notes Line
+	10500 6050 8700 6050
+Text Notes 8150 6400 0    30   ~ 0
+I2C Light Sensor
+Wire Notes Line
+	8700 6750 8700 4350
+Wire Notes Line
+	8700 4350 7200 4350
+Text Notes 8000 4850 0    30   ~ 0
+I2C Pull-ups
+$Comp
+L CREE_CLV1A_FKB D1
+U 1 1 58F13692
+P 1200 5400
+F 0 "D1" H 1200 5350 60  0000 C CNN
+F 1 "CREE_CLV1A_FKB" H 1200 5250 60  0001 C CNN
+F 2 "ovrEngineered:CREE_CLV1A_FKB" H 1450 5350 60  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/CREE%20Power/CLV1A-FKB_Rev5.pdf" H 1400 5050 60  0001 C CNN
+F 4 "Cree Inc." H 900 5150 60  0001 C CNN "Manufacturer"
+F 5 "CLV1A-FKB-CK1N1G1BB7R4S3" H 1650 5150 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 950 4950 60  0001 C CNN "Supplier"
+F 7 "CLV1A-FKB-CK1N1G1BB7R4S3CT-ND" H 1650 4950 60  0001 C CNN "Supplier Part Num."
+F 8 "RGB" H 1200 5950 60  0001 C CNN "Comp. Value"
+	1    1200 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CREE_CLV1A_FKB D2
+U 1 1 58F137D9
+P 1200 6200
+F 0 "D2" H 1200 6150 60  0000 C CNN
+F 1 "CREE_CLV1A_FKB" H 1200 6050 60  0001 C CNN
+F 2 "ovrEngineered:CREE_CLV1A_FKB" H 1450 6150 60  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/CREE%20Power/CLV1A-FKB_Rev5.pdf" H 1400 5850 60  0001 C CNN
+F 4 "Cree Inc." H 900 5950 60  0001 C CNN "Manufacturer"
+F 5 "CLV1A-FKB-CK1N1G1BB7R4S3" H 1650 5950 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 950 5750 60  0001 C CNN "Supplier"
+F 7 "CLV1A-FKB-CK1N1G1BB7R4S3CT-ND" H 1650 5750 60  0001 C CNN "Supplier Part Num."
+F 8 "RGB" H 1200 6750 60  0001 C CNN "Comp. Value"
+	1    1200 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_402_1%_0603 R2
+U 1 1 58F1392E
+P 1450 5100
+F 0 "R2" H 1600 5200 60  0000 C CNN
+F 1 "R_402_1%_0603" H 1450 4950 60  0001 C CNN
+F 2 "ovrEngineered:R_0603" H 1450 5100 60  0001 C CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 1650 4750 60  0001 C CNN
+F 4 "Vishay_Dale" H 1150 4850 60  0001 C CNN "Manufacturer"
+F 5 "CRCW0603402RFKEA" H 1900 4850 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 1200 4650 60  0001 C CNN "Supplier"
+F 7 "541-402HCT-ND" H 1900 4650 60  0001 C CNN "Supplier Part Num."
+F 8 "402" H 1450 5300 60  0000 C CNN "Comp. Value"
+	1    1450 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_402_1%_0603 R3
+U 1 1 58F141B7
+P 1450 5250
+F 0 "R3" H 1600 5350 60  0000 C CNN
+F 1 "R_402_1%_0603" H 1450 5100 60  0001 C CNN
+F 2 "ovrEngineered:R_0603" H 1450 5250 60  0001 C CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 1650 4900 60  0001 C CNN
+F 4 "Vishay_Dale" H 1150 5000 60  0001 C CNN "Manufacturer"
+F 5 "CRCW0603402RFKEA" H 1900 5000 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 1200 4800 60  0001 C CNN "Supplier"
+F 7 "541-402HCT-ND" H 1900 4800 60  0001 C CNN "Supplier Part Num."
+F 8 "402" H 1450 5450 60  0001 C CNN "Comp. Value"
+	1    1450 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_402_1%_0603 R4
+U 1 1 58F1423B
+P 1450 5400
+F 0 "R4" H 1600 5500 60  0000 C CNN
+F 1 "R_402_1%_0603" H 1450 5250 60  0001 C CNN
+F 2 "ovrEngineered:R_0603" H 1450 5400 60  0001 C CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 1650 5050 60  0001 C CNN
+F 4 "Vishay_Dale" H 1150 5150 60  0001 C CNN "Manufacturer"
+F 5 "CRCW0603402RFKEA" H 1900 5150 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 1200 4950 60  0001 C CNN "Supplier"
+F 7 "541-402HCT-ND" H 1900 4950 60  0001 C CNN "Supplier Part Num."
+F 8 "402" H 1450 5600 60  0001 C CNN "Comp. Value"
+	1    1450 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_402_1%_0603 R5
+U 1 1 58F14520
+P 1450 5900
+F 0 "R5" H 1600 6000 60  0000 C CNN
+F 1 "R_402_1%_0603" H 1450 5750 60  0001 C CNN
+F 2 "ovrEngineered:R_0603" H 1450 5900 60  0001 C CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 1650 5550 60  0001 C CNN
+F 4 "Vishay_Dale" H 1150 5650 60  0001 C CNN "Manufacturer"
+F 5 "CRCW0603402RFKEA" H 1900 5650 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 1200 5450 60  0001 C CNN "Supplier"
+F 7 "541-402HCT-ND" H 1900 5450 60  0001 C CNN "Supplier Part Num."
+F 8 "402" H 1450 6100 60  0000 C CNN "Comp. Value"
+	1    1450 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_402_1%_0603 R6
+U 1 1 58F145B2
+P 1450 6050
+F 0 "R6" H 1600 6150 60  0000 C CNN
+F 1 "R_402_1%_0603" H 1450 5900 60  0001 C CNN
+F 2 "ovrEngineered:R_0603" H 1450 6050 60  0001 C CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 1650 5700 60  0001 C CNN
+F 4 "Vishay_Dale" H 1150 5800 60  0001 C CNN "Manufacturer"
+F 5 "CRCW0603402RFKEA" H 1900 5800 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 1200 5600 60  0001 C CNN "Supplier"
+F 7 "541-402HCT-ND" H 1900 5600 60  0001 C CNN "Supplier Part Num."
+F 8 "402" H 1450 6250 60  0001 C CNN "Comp. Value"
+	1    1450 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_402_1%_0603 R7
+U 1 1 58F14648
+P 1450 6200
+F 0 "R7" H 1600 6300 60  0000 C CNN
+F 1 "R_402_1%_0603" H 1450 6050 60  0001 C CNN
+F 2 "ovrEngineered:R_0603" H 1450 6200 60  0001 C CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 1650 5850 60  0001 C CNN
+F 4 "Vishay_Dale" H 1150 5950 60  0001 C CNN "Manufacturer"
+F 5 "CRCW0603402RFKEA" H 1900 5950 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 1200 5750 60  0001 C CNN "Supplier"
+F 7 "541-402HCT-ND" H 1900 5750 60  0001 C CNN "Supplier Part Num."
+F 8 "402" H 1450 6400 60  0001 C CNN "Comp. Value"
+	1    1450 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR033
+U 1 1 58F147E2
+P 950 5150
+F 0 "#PWR033" H 950 5000 50  0001 C CNN
+F 1 "+3V3" H 950 5290 50  0000 C CNN
+F 2 "" H 950 5150 50  0000 C CNN
+F 3 "" H 950 5150 50  0000 C CNN
+	1    950  5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR034
+U 1 1 58F14973
+P 950 5950
+F 0 "#PWR034" H 950 5800 50  0001 C CNN
+F 1 "+3V3" H 950 6090 50  0000 C CNN
+F 2 "" H 950 5950 50  0000 C CNN
+F 3 "" H 950 5950 50  0000 C CNN
+	1    950  5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  5950 950  6000
+Wire Wire Line
+	950  6000 1050 6000
+Wire Wire Line
+	950  5150 950  5200
+Wire Wire Line
+	950  5200 1050 5200
+Wire Wire Line
+	1250 5050 1300 5050
+Wire Wire Line
+	1250 5200 1300 5200
+Wire Wire Line
+	1250 5350 1300 5350
+Wire Wire Line
+	1250 5850 1300 5850
+Wire Wire Line
+	1250 6000 1300 6000
+Wire Wire Line
+	1250 6150 1300 6150
+Text Label 2000 5050 2    30   ~ 0
+LED_WIFI_R
+Text Label 2000 5200 2    30   ~ 0
+LED_WIFI_G
+Text Label 2000 5350 2    30   ~ 0
+LED_WIFI_B
+Text Label 2000 5850 2    30   ~ 0
+LED_BTLE_R
+Text Label 2000 6000 2    30   ~ 0
+LED_BTLE_G
+Text Label 2000 6150 2    30   ~ 0
+LED_BTLE_B
+Wire Wire Line
+	1600 6150 2000 6150
+Wire Wire Line
+	1600 6000 2000 6000
+Wire Wire Line
+	1600 5850 2000 5850
+Wire Wire Line
+	1600 5350 2000 5350
+Wire Wire Line
+	1600 5200 2000 5200
+Wire Wire Line
+	1600 5050 2000 5050
+Text Label 3400 6150 0    30   ~ 0
+LED_WIFI_R
+Text Label 3400 6300 0    30   ~ 0
+LED_WIFI_G
+Text Label 3400 6100 0    30   ~ 0
+LED_WIFI_B
+Text Label 3400 6250 0    30   ~ 0
+LED_BTLE_R
+Text Label 3400 6350 0    30   ~ 0
+LED_BTLE_G
+Text Label 3400 6400 0    30   ~ 0
+LED_BTLE_B
+Text Notes 1200 4800 0    30   ~ 0
+WiFi Activity LED
+Text Notes 1200 5600 0    30   ~ 0
+BTLE Activity LED
+$Comp
+L ESWITCH_TL3315NF100Q SW1
+U 1 1 58F18CB6
+P 1150 7500
+F 0 "SW1" V 1150 7750 60  0000 C CNN
+F 1 "ESWITCH_TL3315NF100Q" H 1150 7350 60  0001 C CNN
+F 2 "ovrEngineered:TL3315NF100Q" H 1500 7450 60  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010336.pdf" H 1350 7150 60  0001 C CNN
+F 4 "E-Switch" H 850 7250 60  0001 C CNN "Manufacturer"
+F 5 "TL3315NF100Q" H 1600 7250 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 900 7050 60  0001 C CNN "Supplier"
+F 7 "EG4620CT-ND" H 1600 7050 60  0001 C CNN "Supplier Part Num."
+	1    1150 7500
+	0    1    1    0   
+$EndComp
+$Comp
+L R_12K_1%_0603 R1
+U 1 1 58F18D73
+P 1150 7100
+F 0 "R1" V 1100 7300 60  0000 C CNN
+F 1 "R_12K_1%_0603" H 1150 6950 60  0001 C CNN
+F 2 "ovrEngineered:R_0603" H 1150 7100 60  0001 C CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 1350 6750 60  0001 C CNN
+F 4 "Vishay_Dale" H 850 6850 60  0001 C CNN "Manufacturer"
+F 5 "CRCW060312K0FKEA" H 1600 6850 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 900 6650 60  0001 C CNN "Supplier"
+F 7 "541-12.0KHCT-ND" H 1600 6650 60  0001 C CNN "Supplier Part Num."
+F 8 "12K" V 1200 7300 60  0000 C CNN "Comp. Value"
+	1    1150 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L +3V3 #PWR035
+U 1 1 58F18E18
+P 1200 6900
+F 0 "#PWR035" H 1200 6750 50  0001 C CNN
+F 1 "+3V3" H 1200 7040 50  0000 C CNN
+F 2 "" H 1200 6900 50  0000 C CNN
+F 3 "" H 1200 6900 50  0000 C CNN
+	1    1200 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR036
+U 1 1 58F18E9E
+P 1200 7700
+F 0 "#PWR036" H 1200 7450 50  0001 C CNN
+F 1 "GND" H 1200 7550 50  0000 C CNN
+F 2 "" H 1200 7700 50  0000 C CNN
+F 3 "" H 1200 7700 50  0000 C CNN
+	1    1200 7700
+	1    0    0    -1  
+$EndComp
+Text Label 1650 7300 2    30   ~ 0
+SW_WIFI_PROV
+Wire Wire Line
+	1200 6900 1200 6950
+Wire Wire Line
+	1250 7350 1250 7300
+Wire Wire Line
+	1200 7300 1650 7300
+Connection ~ 1200 7300
+Connection ~ 1250 7300
+Wire Wire Line
+	1200 7600 1200 7700
+Wire Wire Line
+	1250 7600 1250 7650
+Wire Wire Line
+	1250 7650 1200 7650
+Connection ~ 1200 7650
+Wire Wire Line
+	1200 7350 1200 7250
+Text Label 3400 6200 0    30   ~ 0
+SW_WIFI_PROV
+Text Notes 1100 6650 0    30   ~ 0
+WiFi Provisioning Button
+Text Notes 1050 4600 0    60   ~ 0
+User Interface
+Wire Wire Line
+	3400 6100 3950 6100
+Wire Wire Line
+	3400 6150 3950 6150
+Wire Wire Line
+	3400 6250 3950 6250
+Wire Wire Line
+	3400 6300 3950 6300
+$Comp
+L ESP32-WROOM U4
+U 1 1 58F99740
+P 4300 6000
+F 0 "U4" H 4150 6750 60  0000 C CNN
+F 1 "ESP32-WROOM" H 4350 5250 60  0000 C CNN
+F 2 "ovrEngineered:ESP32-WROOM" H 4650 7350 60  0001 C CNN
+F 3 "https://espressif.com/sites/default/files/documentation/esp_wroom_32_datasheet_en.pdf" H 4750 4750 60  0001 C CNN
+F 4 "EspressIf" H 4250 4850 60  0001 C CNN "Manufacturer"
+F 5 "esp-wroom-32" H 4350 4950 60  0001 C CNN "Man. Part Num."
+F 6 "Grid Connect" H 4450 5050 60  0001 C CNN "Supplier"
+F 7 "GC-ESP-WROOM-32" H 4550 5150 60  0001 C CNN "Supplier Part Num."
+	1    4300 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 5450 3950 5450
+NoConn ~ 3950 5400
+$Comp
+L R_0_0603 R22
+U 1 1 58F9B778
+P 7800 4100
+F 0 "R22" H 7800 4050 60  0000 C CNN
+F 1 "R_0_0603" H 7800 3950 60  0001 C CNN
+F 2 "ovrEngineered:R_0603" H 7800 4100 60  0001 C CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 8000 3750 60  0001 C CNN
+F 4 "Vishay_Dale" H 7500 3850 60  0001 C CNN "Manufacturer"
+F 5 "CRCW06030000Z0EA" H 8250 3850 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 7550 3650 60  0001 C CNN "Supplier"
+F 7 "541-0.0GCT-ND" H 8250 3650 60  0001 C CNN "Supplier Part Num."
+F 8 "0" H 7800 4250 60  0000 C CNN "Comp. Value"
+	1    7800 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR037
+U 1 1 58F9BD70
+P 8000 4100
+F 0 "#PWR037" H 8000 3850 50  0001 C CNN
+F 1 "GND" H 8000 3950 50  0000 C CNN
+F 2 "" H 8000 4100 50  0000 C CNN
+F 3 "" H 8000 4100 50  0000 C CNN
+	1    8000 4100
+	1    0    0    -1  
+$EndComp
+Text Label 7450 4050 0    30   ~ 0
+~VAR_IHP
+Wire Wire Line
+	7450 4050 7650 4050
+Wire Wire Line
+	7950 4050 8000 4050
+Wire Wire Line
+	8000 4050 8000 4100
+Text Label 3400 5850 0    30   ~ 0
+~VAR_IHP
+$Comp
+L R_0_0603 R21
+U 1 1 58F9CD89
+P 7700 900
+F 0 "R21" H 7700 850 60  0000 C CNN
+F 1 "R_0_0603" H 7700 750 60  0001 C CNN
+F 2 "ovrEngineered:R_0603" H 7700 900 60  0001 C CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 7900 550 60  0001 C CNN
+F 4 "Vishay_Dale" H 7400 650 60  0001 C CNN "Manufacturer"
+F 5 "CRCW06030000Z0EA" H 8150 650 60  0001 C CNN "Man. Part Num."
+F 6 "Digi-Key" H 7450 450 60  0001 C CNN "Supplier"
+F 7 "541-0.0GCT-ND" H 8150 450 60  0001 C CNN "Supplier Part Num."
+F 8 "0" H 7700 1050 60  0000 C CNN "Comp. Value"
+	1    7700 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR038
+U 1 1 58F9CD8F
+P 7900 900
+F 0 "#PWR038" H 7900 650 50  0001 C CNN
+F 1 "GND" H 7900 750 50  0000 C CNN
+F 2 "" H 7900 900 50  0000 C CNN
+F 3 "" H 7900 900 50  0000 C CNN
+	1    7900 900 
+	1    0    0    -1  
+$EndComp
+Text Label 7350 850  0    30   ~ 0
+~VAR_EXT
+Wire Wire Line
+	7350 850  7550 850 
+Wire Wire Line
+	7850 850  7900 850 
+Wire Wire Line
+	7900 850  7900 900 
+Text Label 3400 5550 0    30   ~ 0
+~VAR_EXT
+Wire Wire Line
+	3400 5850 3950 5850
+Wire Wire Line
+	3400 5650 3950 5650
+NoConn ~ 3950 6050
+Wire Wire Line
+	3400 6200 3950 6200
+Wire Wire Line
+	3400 5600 3950 5600
+Wire Wire Line
+	3400 5550 3950 5550
+Wire Wire Line
+	3400 5900 3950 5900
+Wire Wire Line
+	3400 5950 3950 5950
+NoConn ~ 3950 6000
 $EndSCHEMATC
