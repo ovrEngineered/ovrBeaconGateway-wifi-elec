@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/christopherarmenio/Development/git/projects/ovrEngineered/ovrBeaconGateway-wifi-elec/ovrBeaconGateway-wifi.sch)
-    (date "Sunday, April 23, 2017 'PMt' 07:04:44 PM")
+    (date "Monday, April 24, 2017 'PMt' 09:19:09 PM")
     (tool "Eeschema 4.0.4-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
